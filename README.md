@@ -1,8 +1,9 @@
-# Project4
+# Project4 - Bookblog
 
 ![]() screenshot from am I responsive
 
-This project is created as part of Code Institute's Software Development course, and has no commercial value. Aim of this project is to have a blog where various book reviews are shared, users who login can comment on the reviews/books/other comments. Website's focus is on sharing books that are related to energy work, healing stories. Hope is to see people share their heureka moments, how reading a certain book changed something in their life for better.
+This project is created as part of Code Institute's Software Development course, and has no commercial value.
+Aim of this project is to create a blog where Site Users can create and share book reviews, create articles for the bookblog, comment on the reviews/books/blog posts. Bookblogs theme: books and experiences related to energy work, ascension, natural methods to adjust wellbeing, heureka moments, serendipity. Incidents, books, someone's kind words that made the day or life better, even for a moment.
 
 Deployed site: [](heroku one!!!)
 
