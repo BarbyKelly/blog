@@ -19,6 +19,6 @@ from django.urls import path
 from bkblog.views import my_bkblog
 
 urlpatterns = [
+    path('', my_bkblog, name='bkblog'),
     path('admin/', admin.site.urls),
-    path('bkblog/', my_bkblog, name='bkblog'),
 ]
