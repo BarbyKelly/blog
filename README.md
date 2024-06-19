@@ -1,131 +1,233 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Project4
 
-Welcome Barby Kelly,
+![]() screenshot from am I responsive
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This project is created as part of Code Institute's Software Development course, and has no commercial value. Aim of this project is to have a blog where various book reviews are shared, users who login can comment on the reviews/books/other comments. Website's focus is on sharing books that are related to energy work, healing stories. Hope is to see people share their heureka moments, how reading a certain book changed something in their life for better.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+Deployed site: [](heroku one!!!)
 
-## Gitpod Reminders
+# Content
+- [UX Design](#ux-design)
+- [User Stories](#user-stories)
+- [Features](#features)
+- [Structure](#structure)
+- [Testing & Validation](#testing--validation)
+- [Deployment](#deployment)
+- [References & Credits](#references--credits)
+- [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+# UX Design
 
-Another blue button should appear to click: _Open Browser_.
+## User Stories
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
+### EPIC 1: Preparation & Planning
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| #  | Planning                                  |                                                                     |
+| #  | Initial Setup                             |                                                         |
 
-Another blue button should appear to click: _Open Browser_.
+[Back to the overview](#content)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### EPIC 2: General Information
 
-To log into the Heroku toolbelt CLI:
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| #  | Base Template     |                     |
+| #  | Navigation Menu   |                   |
+| #  | Footer            |                                                       |
+| #  | Basic Homepage    |                           |
+| #  | Limited Access    |  |
+| #  | Extended Homepage |   
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Back to the overview](#content)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### EPIC 3: User Registration
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| # | User Registration            |  |
+| # | User Login                   |                               |
+| # | Delete User                  |                                                 |
+| # | Edit User                    |                                             |
 
-### Connecting your Mongo database
+[Back to the overview](#content)
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+### EPIC 4: Registered Users
 
-------
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| # | Books Overview                            |                                                                   |
+| # | Books ordering                            |                                                       |
+| # | Books with owner status                   |                                   |
+| # | Book Registration Go Back                 |  |
+| # | Book rating                               |                                          |
+| # | Dropdown in Member Area                   |               |
+| # | Message after login                       |                                         |
+| # | Create messages on successful form submit |                                       |
+| # | Search Book                               |                                     |
 
-## Release History
+[Back to the overview](#content)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### EPIC 5: Book Registration
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| # | Book Data Model    |                                      |
+| # | Book Key generator |                                                               |
+| # | Edit Book          |  |
+| # | Deleting Book      |                              |
+| # | Book Info          |                                                   |
+| # | Book Registration  |                                                                                   |
+| # | Book card detailed |                                   |
+| # | Form Validation |                                      |
 
-**June 18, 2024,** Add Mongo back into template
+[Back to the overview](#content)
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
 
-**May 28 2024:** Fix Mongo and Links installs
+### EPIC 6: Book Contribution
 
-**April 26 2024:** Update node version to 16
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| # | Contribution Data Model |                         |
+| # | Search Book Key         |    |
+| # | Create Contribution     |                                               |
+| # | Delete Contribution     | |
+| # | Edit Contribution       |                                        |
 
-**September 20 2023:** Update Python version to 3.9.17.
+[Back to the overview](#content)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### EPIC 7: Error Pages
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | --------- | --------------------------------------------------------------------------------------------------------------------- |
+| # | Error 404 |  |
+| # | Error 403 |   |
+| # | Error 500 |             |
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+[Back to the overview](#content)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### EPIC 8: Contact
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | --------- | --------------------------------------------------------------------------------------------------------------------- |
+| # | Contact Form  |  |
+| # | Contact Link |  |
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+[Back to the overview](#content)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### EPIC 9: Documenting & Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | --------- | --------------------------------------------------------------------------------------------------------------------- |
+| # | Code Validation     |                   |
+| # | Manual Testing      |  |
+| # | Final Documentation |                                    |
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+[Back to the overview](#content)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+### EPIC 10: Deployments
+| US ID  | US Name                             | User Story (US)                                                      |
+| --- | --------- | --------------------------------------------------------------------------------------------------------------------- |
+| # | Final Deployment     |                  |
 
-## FAQ about the uptime script
+[Back to the overview](#content)
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Wireframes
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+| Page | Desktop | Mobile |
+|------|---------|--------|
+| Home & How It Works|  ||
+| Books | |  |
+| Book Detail |  | 
+| Book Registration | | 
+| Book Contributions |  | 
+| CRUD |  | 
+| User Registration  |  | 
+| Profile |  | 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+[Back to the overview](#content)
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Fonts
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Colors
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Media
 
-**Anything more?**
+[Back to the overview](#content)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+# Features
 
-Happy coding!
+## Common Features
+- **Navigation Menu**
+    
+- **Footer**
+  
+
+## Homepage Features
+
+## User Authentication Pages 
+
+## Book Pages
+
+
+## Contribution Pages
+
+## Contact Pages
+
+## Website Error Pages
+
+## Future Features
+
+
+[Back to the overview](#content)
+
+# Structures
+
+## Webpage structure
+
+## Database model
+
+[Back to the overview](#content)
+
+# Technologies
+
+
+# Testing & Validation
+
+# Deployment
+
+
+## Initial Deployment
+
+### Local (development) environment
+
+### Heroku (production) environment
+
+
+### Forking the repository
+
+
+### Cloning the repository
+
+[Back to the overview](#content)
+
+
+# References & Credits
+- ReadMe template derived from: https://github.com/brodsa/findMEreadME/blob/main/README.md#content
+
+[Back to the overview](#content)
+
+# Acknowledgements
+[Back to the overview](#content)
