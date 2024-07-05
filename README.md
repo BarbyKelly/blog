@@ -163,6 +163,9 @@ Deployed site: [](heroku one!!!)
 
 ## Colors
 
+- Color contrast for large text checked on [Coolors website](https://coolors.co/contrast-checker/6f90f4-ffffff)
+- Color contrast check for brand, checked on [Coolors](https://coolors.co/contrast-checker/35353b-ffffff)
+
 ## Media
 
 [Back to the overview](#content)
