@@ -229,7 +229,24 @@ Deployed site: [](heroku one!!!)
 
 
 # References & Credits
+
 - ReadMe template derived from: https://github.com/brodsa/findMEreadME/blob/main/README.md#content
+
+## Images
+
+- Inna Segal's book cover image from: [Paper Plus](https://www.paperplus.co.nz/shop/books/non-fiction/mind-body-spirit/general/the-secret-language-of-your-body)
+
+- Double rainbow: taken by the developer
+
+- Flowers drawing by developer's daughter Aoife
+
+- Penguin drawing by developer's daughter Ciara, made in school
+
+- Beach: taken by the developer, Fenit, Co. Kerry, Ireland
+
+- Default image clouds taken by the developer, Co. Kerry, Ireland
+
+- Images converted with [Simple Image Resizer](https://www.simpleimageresizer.com/resize-image-to-500-kb)
 
 [Back to the overview](#content)
 
