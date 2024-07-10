@@ -1,9 +1,9 @@
-# Project4 - Bookblog
+# Project4 - BookBlog
 
 ![]() screenshot from am I responsive
 
 This project is created as part of Code Institute's Software Development course, and has no commercial value.
-Aim of this project is to create a blog where Site Users can create and share book reviews, create articles for the bookblog, comment on the reviews/books/blog posts. Bookblogs theme: books and experiences related to energy work, ascension, natural methods to adjust wellbeing, heureka moments, serendipity. Incidents, books, someone's kind words that made the day or life better, even for a moment.
+Aim of this project is to create a blog where Site Users can create and share book reviews, create articles for the bookblog, comment on the reviews/books/blog posts. Bookblogs theme: books and experiences related to energy work, ascension, natural methods to adjust wellbeing, heureka moments, serendipity, beautiful changes in life, during the day.
 
 Deployed site: [](heroku one!!!)
 
@@ -59,39 +59,19 @@ Deployed site: [](heroku one!!!)
 
 | US ID  | US Name                             | User Story (US)                                                      |
 | --- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| # | Books Overview                            |                                                                   |
-| # | Books ordering                            |                                                       |
-| # | Books with owner status                   |                                   |
-| # | Book Registration Go Back                 |  |
-| # | Book rating                               |                                          |
-| # | Dropdown in Member Area                   |               |
+| # | BookBlog Overview                            |                                                                   |           |               |
 | # | Message after login                       |                                         |
 | # | Create messages on successful form submit |                                       |
-| # | Search Book                               |                                     |
-
-[Back to the overview](#content)
-
-### EPIC 5: Book Registration
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| # | Book Data Model    |                                      |
-| # | Book Key generator |                                                               |
-| # | Edit Book          |  |
-| # | Deleting Book      |                              |
-| # | Book Info          |                                                   |
-| # | Book Registration  |                                                                                   |
-| # | Book card detailed |                                   |
-| # | Form Validation |                                      |
+| # | Search BookBlog Titles                              |                                     |
 
 [Back to the overview](#content)
 
 
-### EPIC 6: Book Contribution
+### EPIC 6: BookBlog Contribution
 
 | US ID  | US Name                             | User Story (US)                                                      |
 | --- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | # | Contribution Data Model |                         |
-| # | Search Book Key         |    |
 | # | Create Contribution     |                                               |
 | # | Delete Contribution     | |
 | # | Edit Contribution       |                                        |
@@ -147,11 +127,7 @@ Deployed site: [](heroku one!!!)
 | Page | Desktop | Mobile |
 |------|---------|--------|
 | Home & How It Works|  ||
-| Books | |  |
-| Book Detail |  | 
-| Book Registration | | 
-| Book Contributions |  | 
-| CRUD |  | 
+| BookBlog |    |     |
 | User Registration  |  | 
 | Profile |  | 
 
@@ -223,12 +199,23 @@ Deployed site: [](heroku one!!!)
 ### Forking the repository
 
 
-### Cloning the repository
+### Creating the repository
+
+- Code Institute's [template](https://github.com/Code-Institute-Org/ci-full-template) was used to set up this project.
+- After clicking on the above template link, click on the green button: "Use this template"
+- From there choose: "Create a new repository"
+- Fill in "Repository name" with your desired name for the project
+- Leave the project Public like the default setting (for Code Institute projects)
+- Click on the green button "Create repository"
+
+
 
 [Back to the overview](#content)
 
 
 # References & Credits
+
+- BookBlog project is based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main)
 
 - ReadMe template derived from: https://github.com/brodsa/findMEreadME/blob/main/README.md#content
 
@@ -238,7 +225,7 @@ Deployed site: [](heroku one!!!)
 
 - Double rainbow: taken by the developer
 
-- Flowers drawing by developer's daughter Aoife
+- Flowers drawing by developer's daughter Aoife, made in school
 
 - Penguin drawing by developer's daughter Ciara, made in school
 
