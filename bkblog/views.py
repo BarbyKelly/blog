@@ -30,5 +30,6 @@ def post_detail(request, slug):
     return render(
         request,
         "bkblog/post_detail.html",
-        {"post": post},
+        {"post": post,
+        "coder": "Barby Kelly"},
     )
