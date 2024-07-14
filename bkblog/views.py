@@ -1,7 +1,8 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404,reverse
 from django.views import generic
 from django.contrib import messages
-from .models import Post
+from django.http import HttpResponseRedirect
+from .models import Post, Comment
 from .forms import CommentForm
 
 
@@ -14,7 +15,7 @@ class PostList(generic.ListView):
 
 def post_detail(request, slug):
     """
-    Display an individual :model:`blog.Post`.
+    Display an individual: model:`blog.Post`.
 
     **Context**
 
@@ -57,3 +58,43 @@ def post_detail(request, slug):
             "comment_form": comment_form,
         },
     )
+
+
+def comment_edit(request, slug, comment_id):
+    """
+    View to edit comments
+    """
+    if request.method == "POST":
+
+        queryset = Post.objects.filter(status=1)
+        post = get_object_or_404(queryset, slug=slug)
+        comment = get_object_or_404(Comment, pk=comment_id)
+        comment_form = CommentForm(data=request.POST, instance=comment)
+
+        if comment_form.is_valid() and comment.author == request.user:
+            comment = comment_form.save(commit=False)
+            comment.post = post
+            comment.approved = False
+            comment.save()
+            messages.add_message(request, messages.SUCCESS, 'Success! Your comment was updated!')
+        else:
+            messages.add_message(request, messages.ERROR, 'Attention! Error updating your comment!')
+
+    return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+def comment_delete(request, slug, comment_id):
+    """
+    View to delete comment
+    """
+    queryset = Post.objects.filter(status=1)
+    post = get_object_or_404(queryset, slug=slug)
+    comment = get_object_or_404(Comment, pk=comment_id)
+
+    if comment.author == request.user:
+        comment.delete()
+        messages.add_message(request, messages.SUCCESS, 'Your comment was successfully deleted!')
+    else:
+        messages.add_message(request, messages.ERROR, 'Attention! You may only delete your own comments!')
+
+    return HttpResponseRedirect(reverse('post_detail', args=[slug]))

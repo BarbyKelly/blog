@@ -62,6 +62,10 @@
             {% if not comment.approved and comment.author == user %}
             <p class="approval">This comment is awaiting for approval by an administrator</p>
             {% endif %}
+            {% if user.is_authenticated and comment.author == user %}
+            <button class="btn btn-delete" comment_id="{{ comment.id }}">Delete comment</button>
+            <button class="btn btn-edit" comment_id="{{ comment.id }}">Edit comment</button>
+            {% endif %}
         </div>
         <!-- For loop ends here -->
         {% endfor %}
@@ -78,7 +82,7 @@
             {{ comment_form | crispy }}
             {% csrf_token %}
             <button id="submitButton" type="submit"
-              class="btn btn-signup btn-lg">Submit comment</button>
+              class="btn btn-signup btn-lg">Submit Comment</button>
           </form>
           {% else %}
           <p>Log in to leave a comment</p>
@@ -87,4 +91,32 @@
     </div>
   </div>
 </div>
+<!-- Delete Comment confirmation modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1"
+  aria-labelledby="deleteModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"
+          id="deleteModalLabel">Delete your comment?</h5>
+        <button type="button" class="btn-close"
+          data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Attention! You are about to delete your comment.
+        Deletion cannot be undone.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"
+          data-bs-dismiss="modal">Go back</button>
+        <a id="deleteConfirm" href="#" class="btn
+          btn-danger">Delete this comment</a>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock content %}
+
+{% block extras %}
+<script src="{% static 'js/comments.js' %}"></script>
+{% endblock %}
