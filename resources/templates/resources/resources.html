@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load static %}
+{% for resource in resources %}
 <div class="container mt-5">
   <div class="row">
     <div class="col-4 text-center">
@@ -8,16 +9,17 @@
     </div>
     <div class="col-8">
       <!-- Title -->
-      <h2>{{ resources.title }}</h2>
+      <h2>{{ resource.title }}</h2>
       <!-- Content -->
-      {{ resources.content | safe }}
+      {{ resource.content | safe }}
     </div>
   </div>
-  <div class="row">
-    <div class="col text-right">
-      <!-- Updated on -->
-      <p class="text-end"><em>Updated on: {{ resources.updated_on }}</em></p>
-    </div>
+</div>
+{% endfor %}
+<div class="row">
+  <div class="col text-right">
+    <!-- Added by -->
+    <p class="text-end"><em>Links to Resources Added by Site's Admin {{ resources.updated_on }}</em></p>
   </div>
 </div>
 {% endblock content %}
