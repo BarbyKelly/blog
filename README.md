@@ -186,6 +186,12 @@ Deployed site: [](heroku one!!!)
 
 # Testing & Validation
 
+## Bugs
+
+- Resources app displayed only one resource at a time. With tutor's guidance to add for loop, all of the resources were displayed.
+
+- Images for blog articles showed up on the Home page as expected. Once site user clicked on the article, default image was displayed instead.
+
 # Deployment
 
 
@@ -225,9 +231,9 @@ Deployed site: [](heroku one!!!)
 
 - Double rainbow: taken by the developer
 
-- Flowers drawing by developer's daughter Aoife, made in school
+- Flowers drawing by developer's 10 year old daughter Aoife, made in school
 
-- Penguin drawing by developer's daughter Ciara, made in school
+- Penguin drawing by developer's 6 year old daughter Ciara, made in school
 
 - Beach: taken by the developer, Fenit, Co. Kerry, Ireland
 
