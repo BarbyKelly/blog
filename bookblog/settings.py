@@ -57,7 +57,8 @@ INSTALLED_APPS = [
     'bkblog',
     'django_summernote',
     'cloudinary',
-    'about',  
+    'about',
+    'resources',  
 ]
 
 SITE_ID = 1
