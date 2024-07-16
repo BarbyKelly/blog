@@ -92,9 +92,9 @@
     </div>
     <main class="flex-shrink-0 main-bg">
         {% if user.is_authenticated %}
-        <p class="text-end m-3">Success! You are logged in as {{ user }}</p>
+        <p class="text-end m-3">Logged in as {{ user }}</p>
         {% else %}
-        <p class="text-end m-3">Be aware: You are not logged in</p>
+        <p class="text-end m-3">Not logged in</p>
         {% endif %}
 
         {% block content %}
@@ -102,7 +102,6 @@
         {% endblock content %}
 
     </main>
-
     <!-- Footer -->
     <footer class="footer mt-auto py-3 dark-bg">
         <p class="m-0 text-center text-white">
