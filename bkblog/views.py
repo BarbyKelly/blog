@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404,reverse
+from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic
 from django.contrib import messages
 from django.http import HttpResponseRedirect
@@ -10,7 +10,7 @@ from .forms import CommentForm
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1)
     template_name = "bkblog/index.html"
-    paginate_by = 6
+    paginate_by = 3
 
 
 def post_detail(request, slug):
@@ -42,9 +42,9 @@ def post_detail(request, slug):
           comment.save()
           messages.add_message(
             request, messages.SUCCESS,
-            'Your comment was submitted. Awaiting approval by an administrator'
-    )
-    
+            'Your comment was submitted. Awaiting approval.'
+        )
+
     comment_form = CommentForm()
     print("About to render template")
 
@@ -76,9 +76,9 @@ def comment_edit(request, slug, comment_id):
             comment.post = post
             comment.approved = False
             comment.save()
-            messages.add_message(request, messages.SUCCESS, 'Success! Your comment was updated!')
+            messages.add_message(request, messages.SUCCESS, 'Success!')
         else:
-            messages.add_message(request, messages.ERROR, 'Attention! Error updating your comment!')
+            messages.add_message(request, messages.ERROR, 'Error updating!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
@@ -93,8 +93,8 @@ def comment_delete(request, slug, comment_id):
 
     if comment.author == request.user:
         comment.delete()
-        messages.add_message(request, messages.SUCCESS, 'Your comment was successfully deleted!')
+        messages.add_message(request, messages.SUCCESS, 'Comment deleted!')
     else:
-        messages.add_message(request, messages.ERROR, 'Attention! You may only delete your own comments!')
+        messages.add_message(request, messages.ERROR, 'Not yours to delete!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))

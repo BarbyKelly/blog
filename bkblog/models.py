@@ -10,7 +10,7 @@ class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(
-    User, on_delete=models.CASCADE, related_name="bookblog_posts"
+      User, on_delete=models.CASCADE, related_name="bookblog_posts"
     )
     featured_image = CloudinaryField('image', default='placeholder')
     content = models.TextField()
@@ -24,6 +24,7 @@ class Post(models.Model):
 
     def __str__(self):
         return f"{self.title} | written by {self.author}"
+
 
 class Comment(models.Model):
     post = models.ForeignKey(
