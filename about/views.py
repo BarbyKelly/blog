@@ -7,14 +7,15 @@ from .forms import CollaborateForm
 # Create your views here.
 def about_me(request):
     """
-    Renders the About page
+    Renders the most up to date information on the website author
+    and allows user to fill in collaboration form
     """
     if request.method == "POST":
         collaborate_form = CollaborateForm(data=request.POST)
         if collaborate_form.is_valid():
             collaborate_form.save()
             messages.add_message(request, messages.SUCCESS,
-            'We have received your Collaboration Request. We will get back to you within 48 hours.'
+            'Collaboration Request received. Reviewed within 48 hours.'
             )
 
     about = About.objects.all().order_by('-updated_on').first()
