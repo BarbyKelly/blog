@@ -25,14 +25,19 @@ class Resources(models.Model):
 
 
 # Create Suggestion form
-class SuggestionForm(models.Model):
+class Suggestion(models.Model):
     """
     Model for Site Users to suggest a Resource
     """
-    name = models.CharField(max_length=100)
-    email = models.EmailField(max_length=100)
-    message = models.TextField(max_length=500)
+    title = models.CharField(max_length=100, unique=True)
+    slug = models.SlugField(max_length=200, unique=True)
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="suggestion"
+    )
+    content = models.TextField(max_length=500)
+    created_on = models.DateField(auto_now_add=True)
     read = models.BooleanField(default=False)
-    
+    status = models.IntegerField(choices=STATUS, default=0)
+
     def __str__(self):
         return f"Suggestion from {self.name}"
