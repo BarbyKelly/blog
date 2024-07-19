@@ -39,7 +39,7 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #188181;
+    background-color: #0D34AB;
 }
 
 .scale {
@@ -50,7 +50,7 @@ body {
 .author {
     color: white;
     margin: 4px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .masthead {
@@ -94,7 +94,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: #0D34AB;
 }
 
 .post-title {
@@ -109,18 +109,18 @@ body {
 
 .btn-signup,
 .btn-edit {
-    background-color: #188181;
+    background-color: #0D34AB;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #0D34AB;
 }
 
 .link {
-    color: #23BBBB;
+    color: #0D34AB;
     text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ body {
 }
 
 .btn-like {
-    color: #E84610;
+    color: #0D34AB;
     border: none;
     background: transparent;
 }
@@ -143,7 +143,7 @@ body {
 
 .btn-like:hover,
 .btn-like:active {
-    color: #E84610;
+    color: #0D34AB;
     background: transparent;
     border: none;
 }
@@ -154,4 +154,8 @@ body {
 
 .approval {
     color: rgb(222, 146, 168);
+}
+
+.about-image {
+    width: 80%;
 }
