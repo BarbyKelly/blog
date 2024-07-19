@@ -223,7 +223,9 @@ Deployed site: [](heroku one!!!)
 
 - BookBlog project is based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main)
 
-- ReadMe template derived from: https://github.com/brodsa/findMEreadME/blob/main/README.md#content
+- ReadMe template derived from: [findMEreadME](https://github.com/brodsa/findMEreadME/blob/main/README.md#content)
+
+- Developer refreshed her memory how to get links to open in a new tab from this article by Jessica Wilkins: [How to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/#:~:text=You%20can%20use%20the%20target,opening%20anchor%20tag%20like%20this.)
 
 ## Images
 
@@ -244,4 +246,5 @@ Deployed site: [](heroku one!!!)
 [Back to the overview](#content)
 
 # Acknowledgements
+
 [Back to the overview](#content)
