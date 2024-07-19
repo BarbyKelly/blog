@@ -225,7 +225,9 @@ Deployed site: [](heroku one!!!)
 
 - ReadMe template derived from: [findMEreadME](https://github.com/brodsa/findMEreadME/blob/main/README.md#content)
 
-- Developer refreshed her memory how to get links to open in a new tab from this article by Jessica Wilkins: [How to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/#:~:text=You%20can%20use%20the%20target,opening%20anchor%20tag%20like%20this.)
+- Developer refreshed her memory how to get links to open in a new tab from this article by Jessica Wilkins: [How to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/#:~:text=You%20can%20use%20the%20target,opening%20anchor%20tag%20like%20this.) and
+  How to add favicon: [W3 Schools](https://www.w3schools.com/html/html_favicon.asp)
+
 
 ## Images
 

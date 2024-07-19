@@ -22,3 +22,17 @@ class Resources(models.Model):
 
     def __str__(self):
         return self.title
+
+
+# Create Suggestion form
+class SuggestionForm(models.Model):
+    """
+    Model for Site Users to suggest a Resource
+    """
+    name = models.CharField(max_length=100)
+    email = models.EmailField(max_length=100)
+    message = models.TextField(max_length=500)
+    read = models.BooleanField(default=False)
+    
+    def __str__(self):
+        return f"Suggestion from {self.name}"
