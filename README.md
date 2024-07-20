@@ -2,10 +2,11 @@
 
 ![]() screenshot from am I responsive
 
-This project is created as part of Code Institute's Software Development course, and has no commercial value.
-Aim of this project is to create a blog where Site Users can create and share book reviews, create articles for the bookblog, comment on the reviews/books/blog posts. Bookblogs theme: books and experiences related to energy work, ascension, natural methods to adjust wellbeing, heureka moments, serendipity, beautiful changes in life, during the day.
+This project is created as part of Code Institute's Software Development course. [BookBlog](heroku link here?) is based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main). BookBlog has no commercial value or intention.
+Aim of this project is to create a blog where Site Users can share book reviews, or articles for the bookblog, comment on the reviews/books/blog posts. All of the articles, reviews, comments and suggestions are approved by BookBlog's Admin only.
+Bookblogs theme: books and experiences related to energy work, ascension, natural methods to work on wellbeing, heureka moments, serendipity, beautiful changes in life and so on.
 
-Deployed site: [](heroku one!!!)
+Deployed site: [BookBlog](heroku one!!!)
 
 # Content
 - [UX Design](#ux-design)
@@ -23,113 +24,65 @@ Deployed site: [](heroku one!!!)
 
 ## User Stories
 
+### Admin can:
 
-### EPIC 1: Preparation & Planning
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| #  | Planning                                  |                                                                     |
-| #  | Initial Setup                             |                                                         |
-
-[Back to the overview](#content)
-
-### EPIC 2: General Information
-
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| #  | Base Template     |                     |
-| #  | Navigation Menu   |                   |
-| #  | Footer            |                                                       |
-| #  | Basic Homepage    |                           |
-| #  | Limited Access    |  |
-| #  | Extended Homepage |   
-
-[Back to the overview](#content)
-
-### EPIC 3: User Registration
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| # | User Registration            |  |
-| # | User Login                   |                               |
-| # | Delete User                  |                                                 |
-| # | Edit User                    |                                             |
-
-[Back to the overview](#content)
-
-### EPIC 4: Registered Users
-
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| # | BookBlog Overview                            |                                                                   |           |               |
-| # | Message after login                       |                                         |
-| # | Create messages on successful form submit |                                       |
-| # | Search BookBlog Titles                              |                                     |
-
-[Back to the overview](#content)
+- Create BookBlog content
+- Manage BookBlog content
+- Add, edit and delete their own comments
+- Approve comments
+- Edit and Delete any comments by any Site User
+- Add resources
+- Edit and delete resources
+- Mark Collaboration Requests as "read"
 
 
-### EPIC 6: BookBlog Contribution
+#### Future Features for Admin:
 
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| # | Contribution Data Model |                         |
-| # | Create Contribution     |                                               |
-| # | Delete Contribution     | |
-| # | Edit Contribution       |                                        |
+- Comments by Site Users can only be edited by Site Users, and deleted by Admin if needed
+
+### Site User can:
+
+- View a paginated list of posts, and choose which one to read
+- Sign up for an account
+- Login
+- Add comments
+- Modify or delete their own comments
+- Create drafts
+
+#### Future Features for Site Users:
+
+- Sign up for Newsletter
+- Create posts together with other Site Users
+- Comments limited to max 500 characters
+- System blocking unsuitable/rude/inappropriate words
+- Create blog content
+
+### Visitor may:
+
+- View a paginated list of posts, and choose which one to read
+- Click on Home, About, Resources, Register, Login
+- Opt to Sign up for an account
+- Fill on Collaborator Form
+
+#### Future Features for Visitors:
+
+- Sign up for Newsletter
 
 [Back to the overview](#content)
 
 
-### EPIC 7: Error Pages
-
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | --------- | --------------------------------------------------------------------------------------------------------------------- |
-| # | Error 404 |  |
-| # | Error 403 |   |
-| # | Error 500 |             |
-
+### Documenting & Testing
 
 [Back to the overview](#content)
 
 
-### EPIC 8: Contact
-
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | --------- | --------------------------------------------------------------------------------------------------------------------- |
-| # | Contact Form  |  |
-| # | Contact Link |  |
+### Deployments               |
 
 [Back to the overview](#content)
-
-
-### EPIC 9: Documenting & Testing
-
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | --------- | --------------------------------------------------------------------------------------------------------------------- |
-| # | Code Validation     |                   |
-| # | Manual Testing      |  |
-| # | Final Documentation |                                    |
-
-[Back to the overview](#content)
-
-
-### EPIC 10: Deployments
-| US ID  | US Name                             | User Story (US)                                                      |
-| --- | --------- | --------------------------------------------------------------------------------------------------------------------- |
-| # | Final Deployment     |                  |
-
-[Back to the overview](#content)
-
-
 
 
 ## Wireframes
 
-| Page | Desktop | Mobile |
-|------|---------|--------|
-| Home & How It Works|  ||
-| BookBlog |    |     |
-| User Registration  |  | 
-| Profile |  | 
 
 [Back to the overview](#content)
 
@@ -159,12 +112,9 @@ Deployed site: [](heroku one!!!)
 
 ## User Authentication Pages 
 
-## Book Pages
-
 
 ## Contribution Pages
 
-## Contact Pages
 
 ## Website Error Pages
 
@@ -190,7 +140,11 @@ Deployed site: [](heroku one!!!)
 
 - Resources app displayed only one resource at a time. With tutor's guidance to add for loop, all of the resources were displayed.
 
-- Images for blog articles showed up on the Home page as expected. Once site user clicked on the article, default image was displayed instead.
+- Images for blog articles showed up on the Home page as expected. Once site user clicked on the article, placeholder image was displayed instead.
+
+### Known Bugs
+
+
 
 # Deployment
 
@@ -223,7 +177,9 @@ Deployed site: [](heroku one!!!)
 
 - BookBlog project is based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main)
 
-- ReadMe template derived from: [findMEreadME](https://github.com/brodsa/findMEreadME/blob/main/README.md#content)
+- General ReadMe template derived from: [findMEreadME](https://github.com/brodsa/findMEreadME/blob/main/README.md#content)
+
+- Developer got inspiration for her ReadMe User Stories layout from her mentor Lauren-Nicole Popich's Project 4: [Clueless Biker](https://github.com/CluelessBiker/project4-print-statements?tab=readme-ov-file#user-stories)
 
 - Developer refreshed her memory how to get links to open in a new tab from this article by Jessica Wilkins: [How to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/#:~:text=You%20can%20use%20the%20target,opening%20anchor%20tag%20like%20this.) and
   How to add favicon: [W3 Schools](https://www.w3schools.com/html/html_favicon.asp)
@@ -249,4 +205,5 @@ Deployed site: [](heroku one!!!)
 
 # Acknowledgements
 
+- Developer is grateful for any guidance and support provided by her family and friends, mentor, facilitator, tutors, Slack members, and Django project related content creators  
 [Back to the overview](#content)
