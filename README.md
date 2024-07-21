@@ -2,11 +2,14 @@
 
 ![]() screenshot from am I responsive
 
-This project is created as part of Code Institute's Software Development course. [BookBlog](heroku link here?) is based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main). BookBlog has no commercial value or intention.
-Aim of this project is to create a blog where Site Users can share book reviews, or articles for the bookblog, comment on the reviews/books/blog posts. All of the articles, reviews, comments and suggestions are approved by BookBlog's Admin only.
-Bookblogs theme: books and experiences related to energy work, ascension, natural methods to work on wellbeing, heureka moments, serendipity, beautiful changes in life and so on.
+This project is created as part of Code Institute's Software Development course.
+[BookBlog's](https://bkblog-fdb72a8c4df9.herokuapp.com/) layout and code is mainly based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main). BookBlog has no commercial value or intention.
+Aim of this project is to create a blog where Site Users can share book reviews, or create articles for the bookblog, comment on the reviews/books/blog posts. All of the articles, reviews, comments and suggestions need to be approved by BookBlog's Admin.
+Bookblogs theme: books and experiences related to energy work, ascension, natural methods to work on wellbeing, heureka moments, serendipity, beautiful changes in life and similar.
 
-Deployed site: [BookBlog](heroku one!!!)
+Deployed site: [BookBlog](https://bkblog-fdb72a8c4df9.herokuapp.com/)
+
+Github: [link to github](https://github.com/BarbyKelly/blog)
 
 # Content
 - [UX Design](#ux-design)
@@ -76,7 +79,19 @@ Deployed site: [BookBlog](heroku one!!!)
 [Back to the overview](#content)
 
 
-### Deployments               |
+### Deployments
+
+- Ensure env.py is set up properly
+- Check gitignore
+- Set DEBUG=False in settings.py
+- Login to Heroku
+- Click on settings in the Menu
+- Click on Reveal Config Vars
+- Check if these look ok
+- Click on Deploy in the main menu
+- Scroll down to the end and click on Deploy Branch
+- Once Heroku has finished deploying your app, "View app" appears at the bottom of the page
+- Click on "View app"
 
 [Back to the overview](#content)
 
@@ -129,16 +144,20 @@ Deployed site: [BookBlog](heroku one!!!)
 
 ## Common Features
 - **Navigation Menu**
-    
+    - Home
+    - About
+    - Resources
+    - Sign up
+    - Login
+
 - **Footer**
-  
+    - Copyright
+    - Social Media links
 
 ## Homepage Features
-
-## User Authentication Pages 
-
-
-## Contribution Pages
+- Three different articles are displayed, with author's name, suitable image, excerpt, and date and time of the article
+- Page visitor can see if they are logged in or not, top right corner
+- Below the articles, there's a button 'next', which brings site visitor to the next page of articles
 
 
 ## Website Error Pages
@@ -147,17 +166,6 @@ Deployed site: [BookBlog](heroku one!!!)
 
 
 [Back to the overview](#content)
-
-# Structures
-
-## Webpage structure
-
-## Database model
-
-[Back to the overview](#content)
-
-# Technologies
-
 
 # Testing & Validation
 
@@ -170,18 +178,28 @@ Deployed site: [BookBlog](heroku one!!!)
 ### Known Bugs
 
 
-
-# Deployment
-
-
-## Initial Deployment
-
-### Local (development) environment
-
-### Heroku (production) environment
-
-
 ### Forking the repository
+
+- Go to [Github](https://github.com/)
+- If you want to fork one of your own repos, then DO NOT login under your own name, as fork option is not available
+
+![How fork looks when logged in](docs/readmeimages/notpossibletofork.png)
+
+- Search Github or Google for the repo that you would like to fork
+- Open the repo you want to fork
+- On the same line as the Repo's name, on the right, click on the arrow beside the Fork
+- Click on: + Create a new fork
+
+![Create a new fork](docs/readmeimages/createanewfork.png)
+
+- Choose a name for the repo
+- Add description if you desire
+- Choose if you want to Copy the main branch only
+- Click on: "Create fork"
+
+![Create fork](docs/readmeimages/createfork.png)
+
+- [Spoon-Knife Github repo](https://github.com/octocat/Spoon-Knife) was used to demonstrate how to fork
 
 
 ### Creating the repository
@@ -193,14 +211,12 @@ Deployed site: [BookBlog](heroku one!!!)
 - Leave the project Public like the default setting (for Code Institute projects)
 - Click on the green button "Create repository"
 
-
-
 [Back to the overview](#content)
 
 
 # References & Credits
 
-- BookBlog project is based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main)
+- BookBlog's code is highly based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main)
 
 - General ReadMe template derived from: [findMEreadME](https://github.com/brodsa/findMEreadME/blob/main/README.md#content)
 
