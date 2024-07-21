@@ -83,6 +83,31 @@ Deployed site: [BookBlog](heroku one!!!)
 
 ## Wireframes
 
+- Wireframes created with [Balsamiq](https://balsamiq.com/wireframes/)
+
+### Homepage
+
+![wireframe home page](docs/readmeimages/wireframehome.png)
+
+### Comment as a Logged in User
+
+![wireframe comment option](docs/readmeimages/wireframecomment.png)
+
+### About page
+
+![wireframe comment option](docs/readmeimages/wireframecomment.png)
+
+### Resources page
+
+![wireframe resources page](docs/readmeimages/wireframeresources.png)
+
+### Signup page
+
+![wireframe sign up page](docs/readmeimages/wireframesignup.png)
+
+### Login page
+
+![wireframe login page](docs/readmeimages/wireframelogin.png)
 
 [Back to the overview](#content)
 
@@ -179,10 +204,13 @@ Deployed site: [BookBlog](heroku one!!!)
 
 - General ReadMe template derived from: [findMEreadME](https://github.com/brodsa/findMEreadME/blob/main/README.md#content)
 
-- Developer got inspiration for her ReadMe User Stories layout from her mentor Lauren-Nicole Popich's Project 4: [Clueless Biker](https://github.com/CluelessBiker/project4-print-statements?tab=readme-ov-file#user-stories)
+- Developer got inspiration for her ReadMe User Stories layout from her Facilitator Laura's Project 4: [The Happy Reader](https://github.com/LauraMayock/The-happy-reader/blob/main/README.md)
 
-- Developer refreshed her memory how to get links to open in a new tab from this article by Jessica Wilkins: [How to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/#:~:text=You%20can%20use%20the%20target,opening%20anchor%20tag%20like%20this.) and
-  How to add favicon: [W3 Schools](https://www.w3schools.com/html/html_favicon.asp)
+- Wireframes created with [Balsamiq](https://balsamiq.com/wireframes/)
+
+- Developer read this article to remember how to get links to open in a new tab. Article by Jessica Wilkins: [How to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/#:~:text=You%20can%20use%20the%20target,opening%20anchor%20tag%20like%20this.)
+ 
+- How to add favicon: [W3 Schools](https://www.w3schools.com/html/html_favicon.asp)
 
 
 ## Images
