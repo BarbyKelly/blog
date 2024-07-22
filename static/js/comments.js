@@ -1,3 +1,5 @@
+/** Comments.js, like all of this project, is based on code from Walk-through:
+  https://github.com/Code-Institute-Solutions/blog/tree/main */
 const editButtons = document.getElementsByClassName("btn-edit");
 const commentText = document.getElementById("id_body");
 const commentForm = document.getElementById("commentForm");

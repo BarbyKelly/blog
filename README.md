@@ -243,7 +243,9 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 # References & Credits
 
-- BookBlog's code is highly based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main)
+- BookBlog's code is based on following Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main) . 
+  The developer has credited Walk-through only on top of html files, 
+  due to enourmous number of other files, which are all coded like Walk-through project.
 
 - General ReadMe template derived from: [findMEreadME](https://github.com/brodsa/findMEreadME/blob/main/README.md#content)
 
