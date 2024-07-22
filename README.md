@@ -173,7 +173,34 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 - Resources app displayed only one resource at a time. With tutor's guidance to add for loop, all of the resources were displayed.
 
-- Images for blog articles showed up on the Home page as expected. Once site user clicked on the article, placeholder image was displayed instead.
+### Images post_detail.html
+- Images for bookblog articles showed up as expected on the Home page, matching the subject of the Title.
+
+![Correct images](docs/readmeimages/correctimages.png)
+
+- When developer clicked on any post, the new page displayed the placeholder image instead of the unique image selected for each post.
+
+![Placeholder image](docs/readmeimages/placeholderimage.png)
+
+- Developer had inspected the page before:
+
+[Previous image](docs/readmeimages/previousinspection.png)
+
+- This time the developer clicked on the image part of the page instead:
+
+[New inspection](docs/readmeimages/newinspection.png)
+
+- The developer finally saw the right area, where image details were
+- The developer then compared codes of the images between home page and the new tab:
+
+[Correct code](docs/readmeimages/correctimagecode.png)
+
+[Placeholder code](docs/readmeimages/placeholder.png)
+
+- By matching post_detail.html image code with the home page one, the correct images started to display in the new tab as well:
+
+[Correct image displayed](docs/readmeimages/correctimagedisplayed.png)
+
 
 ### Known Bugs
 
