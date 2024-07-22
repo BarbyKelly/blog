@@ -163,9 +163,24 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 # Testing & Validation
 
-## Lighthouse test
+- ![Lighthouse test](docs/readmeimages/lighthousetest.png)
 
-![Lighthouse test](docs/readmeimages/lighthousetest.png)
+  validated with Google developer tools
+
+- ![HTML validator](docs/readmeimages/htmlcheck.png)
+
+  validated with: [W3C Markaup Validation](https://validator.w3.org/)
+
+- ![CSS validator](docs/readmeimages/cssvalidator.png)
+
+  validated with: [W3C Markup Validation](https://validator.w3.org/)
+
+- ![JS validator](docs/readmeimages/jsvalidator.png)
+
+  validated with: [codebeautify](https://codebeautify.org/jsvalidate)
+
+- ReadMe links were tested
+- Tabs were tested
 
 ## Bugs
 
@@ -213,6 +228,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Resources is missing an image/video on top of the page
 - Images/the original links are displayed only as text or link, instead of an image of the page where user will get to 
   after clicking on the link
+- js validation showed one error, not fixed
 - Spelling check was not done for the website, yet
 - Sign up boxes could be shown in a nicer way, at the moment they are not looking even
 - Alert messages, pop ups are showing up in the color of the walk-through, instead of developer's chosen color
@@ -222,6 +238,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 ![Python error](docs/readmeimages/indentationpython.png)
 
+- Error pages not added
 
 ### Forking the repository
 
