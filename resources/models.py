@@ -10,6 +10,7 @@ class Resources(models.Model):
     """
     Stores fields for Resources
     """
+    profile_image = CloudinaryField('image', default='placeholder')
     title = models.CharField(max_length=200, unique=True)
     content = models.TextField()
     resource_url = models.URLField(null=True, blank=True)

@@ -1,15 +1,18 @@
 # Project4 - BookBlog
 
-![]() screenshot from am I responsive
-
 This project is created as part of Code Institute's Software Development course.
-[BookBlog's](https://bkblog-fdb72a8c4df9.herokuapp.com/) layout and code is mainly based on Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main). BookBlog has no commercial value or intention.
-Aim of this project is to create a blog where Site Users can share book reviews, or create articles for the bookblog, comment on the reviews/books/blog posts. All of the articles, reviews, comments and suggestions need to be approved by BookBlog's Admin.
+[BookBlog's](https://bkblog-fdb72a8c4df9.herokuapp.com/) layout and code is heavily based on Code Institute's Walk-through project
+["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main). BookBlog has no commercial intention.
+Aim of this project was to create a blog where Site Users can share book reviews, or create articles for the bookblog, comment on the reviews/books/blog posts. All of the articles, reviews, comments and suggestions need to be approved by BookBlog's Admin.
 Bookblogs theme: books and experiences related to energy work, ascension, natural methods to work on wellbeing, heureka moments, serendipity, beautiful changes in life and similar.
+At the time of submission deadline, on developer's screen there seems to be only an option to add posts via Django page. 
 
 Deployed site: [BookBlog](https://bkblog-fdb72a8c4df9.herokuapp.com/)
 
 Github: [link to github](https://github.com/BarbyKelly/blog)
+
+![Am I Responsive image](docs/readmeimages/amiresponsive.png)
+
 
 # Content
 - [UX Design](#ux-design)
@@ -20,7 +23,6 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - [Deployment](#deployment)
 - [References & Credits](#references--credits)
 - [Acknowledgements](#acknowledgements)
-
 
 
 # UX Design
@@ -74,11 +76,6 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 [Back to the overview](#content)
 
 
-### Documenting & Testing
-
-[Back to the overview](#content)
-
-
 ### Deployments
 
 - Ensure env.py is set up properly
@@ -127,17 +124,10 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 [Back to the overview](#content)
 
 
-## Fonts
-
-
 ## Colors
 
 - Color contrast for large text checked on [Coolors website](https://coolors.co/contrast-checker/6f90f4-ffffff)
 - Color contrast check for brand, checked on [Coolors](https://coolors.co/contrast-checker/35353b-ffffff)
-
-## Media
-
-[Back to the overview](#content)
 
 
 # Features
@@ -160,14 +150,22 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Below the articles, there's a button 'next', which brings site visitor to the next page of articles
 
 
-## Website Error Pages
-
 ## Future Features
 
+- Site Users can add posts once they log in
+- Admin can add posts not just only via Django
+- Add an option to like the comment or post with a heart favicon
+- Resources page displayin "Suggestion" form, for visitors to be able to fill it
+- Image/video of waves on top of Resources page
+- Resources are displaying their default image/website, not just the link/text
 
 [Back to the overview](#content)
 
 # Testing & Validation
+
+## Lighthouse test
+
+![Lighthouse test](docs/readmeimages/lighthousetest.png)
 
 ## Bugs
 
@@ -201,8 +199,28 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 [Correct image displayed](docs/readmeimages/correctimagedisplayed.png)
 
+### am I Responsive
+
+- am I responsive test showed white screens instead of the website: [Blank am I responsive](docs/readmeimages/amiresponsiveblank.png)
+  Thanks to Kera's post on Slack, developer found out that she needed to install [an extension](https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe?pli=1), so that Heroku site could be tested for responsiveness. Sorted! Am I responsive image displayed at the start of the ReadMe.
+
 
 ### Known Bugs
+
+- Resources showing up in Django as Resourcess. The developer understand for future it is important to use singular versions
+- Collaboration form to be made smaller to fit on the screen better
+- When post is open for further reading, the image of the post is not displaying fully, on developer's screen size
+- Resources is missing an image/video on top of the page
+- Images/the original links are displayed only as text or link, instead of an image of the page where user will get to 
+  after clicking on the link
+- Spelling check was not done for the website, yet
+- Sign up boxes could be shown in a nicer way, at the moment they are not looking even
+- Alert messages, pop ups are showing up in the color of the walk-through, instead of developer's chosen color
+- Admin and Site Users are not able to crete posts when logged in. Admin can create posts from Django
+- Not all of the python files have been checked with [CI Python Linter](https://pep8ci.herokuapp.com/)
+- There are errors showing in some of the python files, checked by developer:
+
+![Python error](docs/readmeimages/indentationpython.png)
 
 
 ### Forking the repository
@@ -244,12 +262,14 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 # References & Credits
 
 - BookBlog's code is based on following Code Institute's Walk-through project ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main) . 
-  The developer has credited Walk-through only on top of html files, 
+  The developer has credited Walk-through mainly on top of html files, 
   due to enourmous number of other files, which are all coded like Walk-through project.
 
 - General ReadMe template derived from: [findMEreadME](https://github.com/brodsa/findMEreadME/blob/main/README.md#content)
 
 - Developer got inspiration for her ReadMe User Stories layout from her Facilitator Laura's Project 4: [The Happy Reader](https://github.com/LauraMayock/The-happy-reader/blob/main/README.md)
+
+- Responsiveness test/image created with: [am I responsive](https://ui.dev/amiresponsive)
 
 - Wireframes created with [Balsamiq](https://balsamiq.com/wireframes/)
 
@@ -278,5 +298,15 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 # Acknowledgements
 
-- Developer is grateful for any guidance and support provided by her family and friends, mentor, facilitator, tutors, Slack members, and Django project related content creators  
+- Developer is grateful for any guidance and support provided by her family and friends, mentor, facilitator, tutors, Slack members, and  
+  online content creators.
+
+- Due to circumstances and time constraint, the project is not fully finished as required:
+  - missing ERD
+  - personalised model, Suggest, is not displaying on the website (only available on Django)
+  - Resources app is supposed to have a wave image/video on top of the page
+  - all of the resources links should be displaying their own images/websites
+  - not enough testing done
+  - there are probably bugs that the developer has not found yet
+
 [Back to the overview](#content)
