@@ -179,7 +179,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
   validated with: [codebeautify](https://codebeautify.org/jsvalidate)
 
-## Testing of tabs, editing etc (word this better, )
+## Testing of Deployed site
 
 | Item Tested | Expected Outcome | What happened | Test Passed | Test Failed |
 | ----------- | ---------------- | ------------- | ----------- | ----------- |
@@ -213,14 +213,16 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 |             |                  |               |             |             |
 |             |                  |               |             |             |
 
-## Testing of social media links
+## Testing of social media links in footer
 
-| Item Tested | Expected Outcome | What happened | Test Passed | Test Failed |
-| ----------- | ---------------- | ------------- | ----------- | ----------- |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
+| Icon clicked | Expected Outcome                 | What happened                        | Test Passed |
+| ------------ | -------------------------------- | ------------------------------------ | ----------- |
+| Facebook     | facebook.com opens in a new tab  | facebook.com opened in the new tab   |      V      |    
+| Twitter/X    | x.com opens in a new tab         | x.com opened in the new tab          |      V      |
+| Instagram    | instagram.com opens in a new tab | youtube.com opened in the new tab    |      V      |
+| YouTube      | youtube.com opens in a new tab   | youtube.com opened in the new tab    |      V      |
+
+
 |             |                  |               |             |             |
 |             |                  |               |             |             |
 |             |                  |               |             |             |
