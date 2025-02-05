@@ -32,6 +32,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     "8000-barbykelly-blog-6dmo4lxn54e.ws.codeinstitute-ide.net",
+    "8000-barbykelly-blog-3ot2qy61ffm.ws-eu117.gitpod.io",
     ".herokuapp.com"
 ]
 

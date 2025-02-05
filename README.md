@@ -1,7 +1,7 @@
 # Project4 - BookBlog
 
 This project is created as part of Code Institute's Software Development course.
-[BookBlog's](https://bkblog-fdb72a8c4df9.herokuapp.com/) layout and code is heavily based on Code Institute's Walk-through project
+[BookBlog's](https://bkblog-fdb72a8c4df9.herokuapp.com/) layout and code is based on Code Institute's Walk-through project
 ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main). BookBlog has no commercial intention.
 Aim of this project was to create a blog where Site Users can share book reviews, or create articles for the bookblog, comment on the reviews/books/blog posts. All of the articles, reviews, comments and suggestions need to be approved by BookBlog's Admin.
 Bookblogs theme: books and experiences related to energy work, ascension, natural methods to work on wellbeing, heureka moments, serendipity, beautiful changes in life and similar.
@@ -179,8 +179,61 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
   validated with: [codebeautify](https://codebeautify.org/jsvalidate)
 
-- ReadMe links were tested
-- Tabs were tested
+## Testing of tabs, editing etc (word this better, )
+
+| Item Tested | Expected Outcome | What happened | Test Passed | Test Failed |
+| ----------- | ---------------- | ------------- | ----------- | ----------- |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+
+## Testing of 
+
+| Item Tested | Expected Outcome | What happened | Test Passed | Test Failed |
+| ----------- | ---------------- | ------------- | ----------- | ----------- |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+
+## Testing of social media links
+
+| Item Tested | Expected Outcome | What happened | Test Passed | Test Failed |
+| ----------- | ---------------- | ------------- | ----------- | ----------- |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+|             |                  |               |             |             |
+
+
+
+
+## Testing of Readme links:
 
 ## Bugs
 
