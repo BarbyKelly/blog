@@ -28,7 +28,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "127.0.0.1", ".herokuapp.com"
@@ -113,9 +113,8 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.codeinstitute-ide.net',
-    'https://*.herokuapp.com',
-    'https://*.gitpod.io'
+    'https://localhost',
+    'https://*.herokuapp.com'
 ]
 
 # Password validation
