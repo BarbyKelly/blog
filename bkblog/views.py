@@ -76,9 +76,9 @@ def comment_edit(request, slug, comment_id):
             comment.post = post
             comment.approved = False
             comment.save()
-            messages.add_message(request, messages.SUCCESS, 'Success!')
+            messages.add_message(request, messages.SUCCESS, 'Comment edited!')
         else:
-            messages.add_message(request, messages.ERROR, 'Error updating!')
+            messages.add_message(request, messages.ERROR, 'Error! Not updated!')
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
