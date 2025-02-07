@@ -163,137 +163,8 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 # Testing & Validation
 
-- ![Lighthouse test](docs/readmeimages/lighthousetest.png)
+- Testing and Validation can be accessed here: [TESTING.md](../TESTING.md)
 
-  validated with Google developer tools
-
-- ![HTML validator](docs/readmeimages/htmlcheck.png)
-
-  validated with: [W3C Markaup Validation](https://validator.w3.org/)
-
-- ![CSS validator](docs/readmeimages/cssvalidator.png)
-
-  validated with: [W3C Markup Validation](https://validator.w3.org/)
-
-- ![JS validator](docs/readmeimages/jsvalidator.png)
-
-  validated with: [codebeautify](https://codebeautify.org/jsvalidate)
-
-## Testing of Deployed site
-
-| Item Tested | Expected Outcome | What happened | Test Passed | Test Failed |
-| ----------- | ---------------- | ------------- | ----------- | ----------- |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-
-## Testing of 
-
-| Item Tested | Expected Outcome | What happened | Test Passed | Test Failed |
-| ----------- | ---------------- | ------------- | ----------- | ----------- |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-
-## Testing of social media links in footer
-
-| Icon clicked | Expected Outcome                 | What happened                        | Test Passed |
-| ------------ | -------------------------------- | ------------------------------------ | ----------- |
-| Facebook     | facebook.com opens in a new tab  | facebook.com opened in the new tab   |      V      |    
-| Twitter/X    | x.com opens in a new tab         | x.com opened in the new tab          |      V      |
-| Instagram    | instagram.com opens in a new tab | youtube.com opened in the new tab    |      V      |
-| YouTube      | youtube.com opens in a new tab   | youtube.com opened in the new tab    |      V      |
-
-
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-|             |                  |               |             |             |
-
-
-
-
-## Testing of Readme links:
-
-## Bugs
-
-- Resources app displayed only one resource at a time. With tutor's guidance to add for loop, all of the resources were displayed.
-
-### Images post_detail.html
-- Images for bookblog articles showed up as expected on the Home page, matching the subject of the Title.
-
-![Correct images](docs/readmeimages/correctimages.png)
-
-- When developer clicked on any post, the new page displayed the placeholder image instead of the unique image selected for each post.
-
-![Placeholder image](docs/readmeimages/placeholderimage.png)
-
-- Developer had inspected the page before:
-
-[Previous image](docs/readmeimages/previousinspection.png)
-
-- This time the developer clicked on the image part of the page instead:
-
-[New inspection](docs/readmeimages/newinspection.png)
-
-- The developer finally saw the right area, where image details were
-- The developer then compared codes of the images between home page and the new tab:
-
-[Correct code](docs/readmeimages/correctimagecode.png)
-
-[Placeholder code](docs/readmeimages/placeholder.png)
-
-- By matching post_detail.html image code with the home page one, the correct images started to display in the new tab as well:
-
-[Correct image displayed](docs/readmeimages/correctimagedisplayed.png)
-
-### am I Responsive
-
-- am I responsive test showed white screens instead of the website: [Blank am I responsive](docs/readmeimages/amiresponsiveblank.png)
-  Thanks to Kera's post on Slack, developer found out that she needed to install [an extension](https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe?pli=1), so that Heroku site could be tested for responsiveness. Sorted! Am I responsive image displayed at the start of the ReadMe.
-
-
-### Known Bugs
-
-- Resources showing up in Django as Resourcess. The developer understand for future it is important to use singular versions
-- Collaboration form to be made smaller to fit on the screen better
-- When post is open for further reading, the image of the post is not displaying fully, on developer's screen size
-- Resources is missing an image/video on top of the page
-- Images/the original links are displayed only as text or link, instead of an image of the page where user will get to 
-  after clicking on the link
-- js validation showed one error, not fixed
-- Spelling check was not done for the website, yet
-- Sign up boxes could be shown in a nicer way, at the moment they are not looking even
-- Alert messages, pop ups are showing up in the color of the walk-through, instead of developer's chosen color
-- Admin and Site Users are not able to crete posts when logged in. Admin can create posts from Django
-- Not all of the python files have been checked with [CI Python Linter](https://pep8ci.herokuapp.com/)
-- There are errors showing in some of the python files, checked by developer:
-
-![Python error](docs/readmeimages/indentationpython.png)
-
-- Error pages not added
 
 ### Forking the repository
 
@@ -348,6 +219,9 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Developer read this article to remember how to get links to open in a new tab. Article by Jessica Wilkins: [How to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-open-a-link-in-a-new-tab/#:~:text=You%20can%20use%20the%20target,opening%20anchor%20tag%20like%20this.)
  
 - How to add favicon: [W3 Schools](https://www.w3schools.com/html/html_favicon.asp)
+
+- Thanks to tutor Oisin's guidelines, Developer learned from [this ReadMe](https://github.com/Dimitris112/rum-away-testp4/blob/main/TESTING.md)
+  how to add an extra file to document testing, and how to format testing tables
 
 
 ## Images
