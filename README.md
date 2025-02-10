@@ -61,6 +61,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Comments limited to max 500 characters
 - System blocking unsuitable/rude/inappropriate words
 - Create blog content
+- Comments visible only to Signed In users
 
 ### Visitor may:
 
