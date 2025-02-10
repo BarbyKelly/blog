@@ -155,9 +155,12 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Site Users can add posts once they log in
 - Admin can add posts not just only via Django
 - Add an option to like the comment or post with a heart favicon
-- Resources page displayin "Suggestion" form, for visitors to be able to fill it
+- Resources page displaying "Suggestion" form, for visitors to be able to fill it
 - Image/video of waves on top of Resources page
 - Resources are displaying their default image/website, not just the link/text
+- Admin would notify User, if their Comment has been deleted due to inappropriate details, wording or images
+- Admin won't have an option to edit other User's post
+- Admin can notify User if there's spelling error, inappropriate details, in their comment, before deleting it
 
 [Back to the overview](#content)
 
