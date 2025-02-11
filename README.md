@@ -43,7 +43,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 #### Future Features for Admin:
 
-- Comments by Site Users can only be edited by Site Users, and deleted by Admin if needed
+- Comments by Site Users can only be edited by Site Users, and deleted by Admin if needed, no editing option for Admin, except for their own comments
 
 ### Site User can:
 
@@ -62,6 +62,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - System blocking unsuitable/rude/inappropriate words
 - Create blog content
 - Comments visible only to Signed In users
+- Sign Out form has an option to "Go Back" with a button, instead of just clicking on a different NavLink, if don't want to Sign Out
 
 ### Visitor may:
 
