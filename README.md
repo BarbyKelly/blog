@@ -152,6 +152,12 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Below the articles, there's a button 'next', which brings site visitor to the next page of articles
 
 
+## Resources Features
+- Various links are available for Visitor
+- Visitor can click on links to open YouTube videos
+- Only Admin can add and edit Resources
+
+
 ## Future Features
 
 - Site Users can add posts once they log in
