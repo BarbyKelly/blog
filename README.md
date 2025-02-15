@@ -169,6 +169,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Admin would notify User, if their Comment has been deleted due to inappropriate details, wording or images
 - Admin won't have an option to edit other User's post
 - Admin can notify User if there's spelling error, inappropriate details, in their comment, before deleting it
+- Resources to be replaced with links that open without ads
 
 [Back to the overview](#content)
 
@@ -182,33 +183,48 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - [CSS Validator](CSS Validator)
 - [JS Validator](JS Validator)
 - [NavBar, NavLinks, NavButtons](NavBar, NavLinks, NavButtons)
+- [About Page, Collaboration Form](About Page, Collaboration Form)
+- [Blog Posts, Comments, Edit and Delete Options, Approving of Comments](Blog Posts, Comments, Edit and Delete Options, Approving of Comments)
 - [Social media links in Footer](Social media links in Footer)
-
+- [ReadMe links](ReadMe links)
 
 
 ## Lighthouse Reports
-- ![Lighthouse Report](docs/readmeimages/lighthousetest.png) replace
 
   validated with Google developer tools
+
+- ![Lighthouse Home](docs/readmeimages/lighthousetest.png)
+
+- 
+
+-
+
+-
+
+-
+
+
+
+  
 
 
 ## HTML Validator
 
-- ![HTML Validator](docs/readmeimages/htmlcheck.png) replace 
+- ![HTML Validator](docs/readmeimages/htmlcheck.png) 
 
   validated with: [W3C Markaup Validation](https://validator.w3.org/)
 
 
 ## CSS Validator
 
-- ![CSS Validator](docs/readmeimages/cssvalidator.png) replace 
+- ![CSS Validator](docs/readmeimages/cssvalidator.png) 
 
   validated with: [W3C Markup Validation](https://validator.w3.org/)
 
 
 ## JS Validator
 
-- ![JS Validator](docs/readmeimages/jsvalidator.png) replace
+- ![JS Validator](docs/readmeimages/jsvalidator.png)
 
   validated with: [codebeautify](https://codebeautify.org/jsvalidate)
 
@@ -282,6 +298,23 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 |             | sharing beautiful moments remains the same,           | as expected |
 |             | Visible in top right corner on all pages              | as expected |
 
+
+## Blog Posts, Comments, Edit and Delete Options, Approving of Comments
+
+| Tested Item | Expected Outcome                                      | Outcome         |
+| ----------- | ----------------------------------------------------- | --------------  |
+| Blog Post   | Clickable Blog Post title,                            | as expected     |
+|             | Opens in a new tab,                                   | as expected     |
+|             | Title, author, time of creation are visible,          | as expected     |
+|             | Blog Posts text is visible and clear,                 | as expected     |
+|             | Full Image of the blog post is visible                | not as expected |
+|             | beside the title, on different screen sizes,          |                 |
+|             | Image of the blog post is visible on different        | not as expected |
+|             | screen sizes,                                         |                 |
+|             |                                                       |                 |
+| Comment     | Clickable,                                            | as expected     |
+
+
 ## About Page, Collaboration Form
 
 | Tested Item | Expected Outcome                                                  | Outcome     |
@@ -350,22 +383,113 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 |             | informing visitor to adjust the field,                            |             |
 |             | that is not filled as required                                    | as expected |
 
+## Resources page
+
+| Tested Item | Expected Outcome                                      | Outcome     |
+| ----------- | ----------------------------------------------------- | ----------- |
+|             | Logo, NavLinks, NavText displayed on top of the page, | as expected |
+|             | Signed in or Not Signed in displayed on the right     | as expected |
+|             | Resources NavLink is darkened,                        | as expected |
+|             | to show visitor which page they are on                |             |
+|             |                                                       |             |
+|             | Titles of various links are displayed on the page.    | as expected |
+|             | Links to each Resource are displayed,                 | as expected |
+|             | links are clickable.                                  | as expected |
+|             | On the click, selected link opens in a new tab,       | as expected |
+|             | in YouTube,                                           | as expected |
+|             | Resources page remains open in a previous tab,        | as expected |
+|             | If visitor has YouTube subcsription,                  | as expected |
+|             | link content starts on YouTube after link is clicked, | as expected |
+|             | if visitor has no YouTube subscription,               | as expected |
+|             | random ad chosen by YouTube may play first,           | as expected |
+|             | which is out of Developer's expertise                 | as expected |
+|             |                                                       |             |
+|             | Note on the right below links,                        | as expected |
+|             | stating Resources added by Site's admin               | as expected |
 
 
-## Blog Posts, Comments, Edit and Delete Options, Approving of Comments
+## Sign Up page
 
-| Tested Item | Expected Outcome                                      | Outcome         |
-| ----------- | ----------------------------------------------------- | --------------  |
-| Blog Post   | Clickable,                                            | as expected     |
-|             | Opens in a new tab,                                   | as expected     |
-|             | Title, author, time of creation are visible,          | as expected     |
-|             | Blog Posts text is visible and clear,                 | as expected     |
-|             | Image of the blog post is visible beside the title    | not as expected |
-|             | screen sizes,                                         |                 |
-|             | Image of the blog post is visible on different        | not as expected |
-|             | screen sizes,                                         |                 |
-|             |                                                       |                 |
-| Comment     | Clickable,                                            | as expected     |
+| Tested Item | Expected Outcome                                                 | Outcome     |
+| ----------- | ---------------------------------------------------------------- | ----------- |
+| Sign Up     | Logo, NavBar, NavLinks, NavText displayed,                       | as expected |
+| page        | or NavLinks and NavText in the Side Menu,                        | as expected |
+|             | if smaller screen                                                | as expected |
+|             | On the right,                                                    | as expected |
+|             | below Side Menu or NavText,                                      | as expected |
+|             | 'Not signed in' is displayed.                                    | as expected |
+|             |                                                                  |             |
+|             | Below Sign Up Title, text Welcomes users,                        | as expected |
+|             | gives an option to 'Sign In' if user already has an account,     | as expected |
+|             | with a clickable 'Sign In' link.                                 | as expected |
+|             |                                                                  |             |
+| Sign Up     | Sign Up form is displayed,                                       | as expected |
+| Form        | Username field is displayed,                                     |             |
+|             | with grayed out 'Username' in the field.                         | as expected |
+
+
+
+## Sign In page
+
+| Tested Item | Expected Outcome                                                 | Outcome     |
+| ----------- | ---------------------------------------------------------------- | ----------- |
+| Sign In     | Logo, NavBar, NavLinks, NavText displayed,                       | as expected |
+| page        | or NavLinks and NavText in the Side Menu,                        | as expected |
+|             | if smaller screen                                                | as expected |
+|             | On the right,                                                    | as expected |
+|             | below Side Menu or NavText,                                      | as expected |
+|             | 'Not signed in' is displayed.                                    | as expected |
+|             |                                                                  |             |
+|             | Below Sign In Title, text welcomes users back,                   | as expected |
+|             | mentions that comments can be made only when Signed In,          | as expected |
+|             | and gives New Users an option to Sign Up.                        | as expected |
+|             | Sign Up link is clickable,                                       | as expected |
+|             | and brings New users to Sign Up form.                            | as expected |
+|             |                                                                  |             |
+| Sign In     | Sign In form is displayed,                                       | as expected |
+| Form        | Username field is displayed,                                     |             |
+|             | with grayed out 'Username' in the box.                           | as expected |
+|             |                                                                  |             |
+| Username    | User can type in their Username,                                 | as expected |
+|             | or choose their Username from the options shown,                 | as expected |
+|             | after clicking in Username box,                                  | as expected |
+|             | if user has previously opted for 'Remember Me:'                  | as expected |
+|             |                                                                  |             |
+|             | If incorrect Username is entered,                                | as expected |
+|             | and user clicks on 'Sign In' button:                             | as expected |
+|             | "The username and/or password you specified are not correct."    | as expected |
+|             | appears above 'Username' field                                   | as expected |
+|             |                                                                  |             |
+|             | If nothing is entered in Username field,                         | as expected |
+|             | and user clicks on 'Sign In' button,                             | as expected |
+|             | pop up appears near Username field: "Please fill in this field." | as expected |
+|             |                                                                  |             |
+| Password    | Password field is displayed,                                     | as expected |
+|             | User can type in their password,                                 | as expected |
+|             | all characters typed, are masked as black dots.                  | as expected |
+|             |                                                                  |             |
+|             | If incorrect password is entered,                                | as expected |
+|             | and user clicks on 'Sign In' button,                             | as expected |
+|             | "The username and/or password you specified are not correct."    | as expected |
+|             | appears above 'Username field',                                  | as expected |
+|             | User has an option to correct the password and try again.        | as expected |
+|             |                                                                  |             |
+|             | If password field is left blank,                                 | as expected |
+|             | and user clicks on 'Sign In' button,                             | as expected |
+|             | pop up appears near Password field: "Please fill in this field." | as expected |
+|             |                                                                  |             |
+|             | User has an option to click in checkbox beside 'Remember Me:'    | as expected |
+|             | Check appears in the checkbox if user clicks on it.              | as expected |
+|             | 'Sign In' button is available below 'Remember Me:'               | as expected |
+|             |                                                                  |             |
+|             | If correct Username and correct Password are entered,            | as expected |
+|             | and user clicks on 'Sign In' button,                             | as expected |
+|             | Home page opens,                                                 | as expected |
+|             | "Successfully signed in as ...." pops up below NavBar,           | as expected |
+|             | or below logo and Side Menu (on a smaller screen),               | as expected |
+|             | "Signed in as ..." is displayed on the rightside below pop-up,   | as expected |
+|             | NavBar shows 'Sign Out' instead of 'Sign Up' and 'Sign In'.      | as expected |
+|             | and user is now allowed to comment on any published post.        | as expected |
 
 
 ## Social media links in Footer
@@ -513,6 +637,8 @@ After:
 
 - Thanks to tutor Oisin's guidelines, Developer learned from [this ReadMe](https://github.com/Dimitris112/rum-away-testp4/blob/main/TESTING.md)
   how to add an extra file to document testing, and how to format testing tables
+
+- Developer used [ABC Webpage Spell-Check](https://chromewebstore.google.com/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik) to check spelling, found this suggestion on Slack, from Kera
 
 
 ## Images
