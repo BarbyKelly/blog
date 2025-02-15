@@ -218,25 +218,25 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 | Tested Item | Expected Outcome                                      | Outcome     |
 | ----------- | ----------------------------------------------------- | ----------- |
 | Home        | Clickable,                                            | as expected |
-|             | Opens Home page,                                      | as expected |
+| NavLink     | Opens Home page,                                      | as expected |
 |             | Or refreshes it if user is already on Home page,      | as expected |
 |             | Color of Home NavLink darkens once it's selected,     | as expected |
 |             | Opens in the current tab                              | as expected |         
 |             |                                                       |             |
 | About       | Clickable,                                            | as expected |
-|             | Opens About page,                                     | as expected |
+| NavLink     | Opens About page,                                     | as expected |
 |             | Or refreshes it if user is already on About page,     | as expected |
 |             | Color of About NavLink darkens once it's selected,    | as expected |
 |             | Opens in the current tab                              | as expected | 
 |             |                                                       |             |
 | Resources   | Clickable,                                            | as expected |
-|             | Opens Resources page,                                 | as expected |
+| NavLink     | Opens Resources page,                                 | as expected |
 |             | Or refreshes it if user is already on Resources page, | as expected |
 |             | Color of Resources NavLink darkens once it's selected,| as expected |
 |             | Opens in the current tab                              | as expected | 
 |             |                                                       |             |
 | Sign In     | Clickable,                                            | as expected |
-|             | Visible only when user is not Signed In,              | as expected |
+| NavLink     | Visible only when user is not Signed In,              | as expected |
 |             | Opens up a Sign In form,                              | as expected |
 |             | which shows an option to Sign Up if no account,       | as expected | 
 |             | Color of Sign In NavLink darkens once it's selected,  | as expected |
@@ -247,7 +247,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 |             | Sign Up option is visible if not signed in            | as expected |
 |             |                                                       |             |
 | Sign Out    | Sign Out is visible only when user is Signed In,      | as expected |
-|             | Color of Sign Out NavLink darkens once it's selected, | as expected |
+| NavLink     | Color of Sign Out NavLink darkens once it's selected, | as expected |
 |             | Opens in the current tab,                             | as expected | 
 |             | Sign Out form Opens with an option to Sign Out,       | as expected |
 |             | Or refreshes the Sign Out page if user already on Sign| as expected |
@@ -282,6 +282,75 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 |             | sharing beautiful moments remains the same,           | as expected |
 |             | Visible in top right corner on all pages              | as expected |
 
+## About Page, Collaboration Form
+
+| Tested Item | Expected Outcome                                                  | Outcome     |
+| ----------- | ----------------------------------------------------------------- | ----------- |
+| About       | About page opens when About is clicked on in the NavBar,          | as expected |
+| Page        | Page available when Signed in or not Signed in,                   | as expected |
+|             | Admin can access via NavBar and via Django.                       | as expected |
+|             |                                                                   |             |
+|             | NavLink About in the NavBar darkens to show user is on About page,| as expected |
+|             | NavText remains in the top right corner,                          | as expected |
+|             | Top right corner, below NavText, user can see if Signed in        | as expected |
+|             | or signed out                                                     | as expected |
+|             |                                                                   |             |
+| Image       | Default image is displayed on the left side or                    | as expected |
+|             | above the text (if smaller screen size),                          | as expected |
+|             | only Developer can add/edit/change/delete Images on About page,   | as expected |
+|             |                                                                   |             |
+| Text        | Developer's view on what this website/project is about,           | as expected |
+|             | disclaimer Collaboration Forms won't be replied to,               | as expected |
+|             | only Developer can add/edit/delete About page text,               | as expected |
+|             | date and time of the update of the text are on the right,         | as expected |
+|             | below the text about the website                                  | as expected |
+|             |                                                                   |             |
+| Form        | Collaboration Form is part of About page,                         | as expected |
+|             | located below text about the website,                             | as expected |
+|             | Visitor might need to scroll to see the form,                     | as expected |
+|             | Form is accessable when Signed in,                                | as expected |
+|             | and when not Signed in.                                           | as expected |
+|             |                                                                   |             |
+| Name        | Name field is part of the Collaboration form,                     | as expected |
+| field       | Visitor can type in Name* field,                                  | as expected |
+|             | Name field is mandatory if visitor wants to submit form,          | as expected |
+|             | Name field is marked with an asterisk to show it's mandatory,     | as expected |
+|             | pop up appears if trying to submit without name:                  | as expected |
+|             | "Please fill in this field",                                      | as expected |
+|             |                                                                   |             |
+| Email       | Email field is part of the Collaboration form,                    | as expected |
+| field       | Visitor can type in Email* field,                                 | as expected |
+|             | Email field is mandatory if want to submit form,                  | as expected |
+|             | Email field is marked with an asterisk to show it's mandatory,    | as expected |
+|             | pop up appears if trying to submit without email:                 | as expected |
+|             | "Please fill in this field",                                      | as expected |
+|             | pop up appears if no text before '@' in the email:                | as expected |
+|             | "Please enter a part followed by '@'. '@...' is incomplete"       | as expected |
+|             | pop up appears when no '@' in the email:                          | as expected |
+|             | "Please include an '@' in the email...",                          | as expected |
+|             | pop up appears if no text after '@' in the email:                 | as expected |
+|             | "Please enter a part following '@'. '...@' is incomplete"         | as expected |
+|             |                                                                   |             |
+| Message     | Message field is part of the Collaboration Form,                  | as expected |
+| field       | Visitor can type in Message* field,                               | as expected |
+|             | Message field is mandatory if want to submit form,                | as expected |
+|             | Message fiels is marked with an asterisk, to show it's mandatory  | as expected |
+|             | pop up appears if trying to submit without message:               | as expected |
+|             | "Please fill in this field"                                       | as expected |
+|             |                                                                   |             |
+| Submit Here | 'Submit Here' button is accessible below the Collaboration Form.  | as expected |
+| button      | Visitor can click on 'Submit Here' button.                        | as expected |
+|             | If Name, Email and Message fields have text in them,              |             |
+|             | and Email matches all required aspects                            | as expected |
+|             | then Collaboration Form is submitted once 'Submit Here' is clicked| as expected |
+|             | and pop up appears:                                               | as expected |
+|             | "Collaboration Form received. Reviewed within 48 hours."          | as expected |
+|             | If form is not filled as requested,                               |             |
+|             | pop up would appear, after visitor clicks on 'Submit Here',       | as expected |
+|             | informing visitor to adjust the field,                            |             |
+|             | that is not filled as required                                    | as expected |
+
+
 
 ## Blog Posts, Comments, Edit and Delete Options, Approving of Comments
 
@@ -296,9 +365,8 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 |             | Image of the blog post is visible on different        | not as expected |
 |             | screen sizes,                                         |                 |
 |             |                                                       |                 |
+| Comment     | Clickable,                                            | as expected     |
 
-| Comment     | Clickable,                                         | as expected     |
-|             |                                                       |             |
 
 ## Social media links in Footer
 
@@ -317,7 +385,22 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 ## Bugs
 
-- Resources app displayed only one resource at a time. With tutor's guidance to add for loop, all of the resources were displayed.
+- Resources app displayed only one resource at a time. With tutor's guidance to add for loop, all of the resources were displayed (for original version of this project)
+
+- Images on Home page, on Next page, too big.
+
+- Collaboration Form confirmation mentioned Collaboration Request. Developer changed 'request' for 'form' in about>views.py, to match the wording of the form and confirmation:
+
+Before:
+
+![Collaboration Request](readmerequestreceived.png)
+
+After:
+
+![Collaboration Form](readmeformreceived.png)
+
+
+
 
 ### Images post_detail.html
 - Images for bookblog articles showed up as expected on the Home page, matching the subject of the Title.

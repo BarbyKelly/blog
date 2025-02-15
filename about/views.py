@@ -15,7 +15,7 @@ def about_me(request):
         if collaborate_form.is_valid():
             collaborate_form.save()
             messages.add_message(request, messages.SUCCESS,
-            'Collaboration Request received. Reviewed within 48 hours.'
+            'Collaboration Form received. Reviewed within 48 hours.'
             )
 
     about = About.objects.all().order_by('-updated_on').first()
