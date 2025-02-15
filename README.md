@@ -438,17 +438,17 @@ After:
 
 ### Known Bugs
 
-- Resources showing up in Django as Resourcess. The developer understand for future it is important to use singular versions
+- Resources and About showing up in Django as Resourcess and Abouts
+- On Django, Collaboration requests needs to be replaced with Collaboration Form 
 - Collaboration form to be made smaller to fit on the screen better
 - When post is open for further reading, the image of the post is not displaying fully, on developer's screen size
 - Resources is missing an image/video on top of the page
-- Images/the original links are displayed only as text or link, instead of an image of the page where user will get to 
-  after clicking on the link
+- Resources are displayed only as text or link, instead of an image of the page
 - js validation showed one error, not fixed
 - Spelling check was not done for the website, yet
-- Sign up boxes could be shown in a nicer way, at the moment they are not looking even
+- Sign up boxes could be shown in a nicer way, at the moment they are not lined up evenly
 - Alert messages, pop ups are showing up in the color of the walk-through, instead of developer's chosen color
-- Admin and Site Users are not able to crete posts when logged in. Admin can create posts from Django
+- Admin and Site Users are not able to create posts when logged in. Admin can create posts from Django
 - Not all of the python files have been checked with [CI Python Linter](https://pep8ci.herokuapp.com/)
 - There are errors showing in some of the python files, checked by developer:
 
