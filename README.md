@@ -170,6 +170,10 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Admin won't have an option to edit other User's post
 - Admin can notify User if there's spelling error, inappropriate details, in their comment, before deleting it
 - Resources to be replaced with links that open without ads
+- Resources not displayed if 'Draft' or 'Unapproved' or 'Not yet approved'
+- Sign Up form to have asterisk for required fields: Username, Password, Password(again)
+- When Sign Up is successful, and Home page opens, pop up on the screen to say "Successfully signed up, and signed in as ...",
+  instead of "Successfully signed in as..."
 
 [Back to the overview](#content)
 
@@ -424,8 +428,108 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 |             | with a clickable 'Sign In' link.                                 | as expected |
 |             |                                                                  |             |
 | Sign Up     | Sign Up form is displayed,                                       | as expected |
-| Form        | Username field is displayed,                                     |             |
-|             | with grayed out 'Username' in the field.                         | as expected |
+| Form        | with Username, Email, Password, Password(again) fields,          | as expected |
+|             | and grayed out field names where Visitor can type.               | as expected |
+|             |                                                                  |             |
+| Username    | Visitor can type in what Username they would like.               | as expected |
+|             | Username is required, even though there's no asterisk            | as expected |
+|             | highlighting that Username is required.                          | as expected |
+|             | When cursor is on Username field,                                | as expected |
+|             | 'Please fill in this field' appears below the field.             | as expected |
+|             | Letters, Numbers and certain special characters are allowed.     | as expected |
+|             | If different special characters are entered,                     | as expected |
+|             | Notice appears above Username field:                             | as expected |
+|             | 'Enter a valid username. This value may contain only letters,    | as expected |
+|             | numbers, and @/./+/-/_ characters.'                              |             |
+|             |                                                                  |             |
+|             | If Username is entered and 'Sign Up' clicked,                    | as expected |
+|             | without filling in Password fields,                              | as expected |
+|             | "Please fill in this field" pops up below Password field.        | as expected |
+|             |                                                                  |             |
+|             | If nothing is entered in Username field,                         | as expected |
+|             | and user clicks on 'Sign Up' button,                             | as expected |
+|             | pop up appears near Username field: "Please fill in this field." | as expected |
+|             |                                                                  |             |
+|             | When User has tried a few Usernames to sign up with,             | as expected |
+|             | these Usernames show up as options, when cursor is in Username   | as expected |
+|             | field,                                                           |             |
+|             | and User has an option to choose one of them,                    | as expected |
+|             | by moving cursor to the selected one,                            | as expected |
+|             | and clicking on it,                                              | as expected |
+|             | and selected Username then appears in Username field.            | as expected |
+|             | If this Username is already not taken by someone else,           | as expected |
+|             | User can sign up with that Username.                             | as expected |
+|             | If this Username is already taken by someone else,               | as expected |
+|             | and new User clicks on 'Sign Up' button, with that Username      | as expected |
+|             | displayed on their Username field,                               | as expected |
+|             | message will show above Username:                                | as expected |
+|             | "A user with that username already exists."                      | as expected |
+|             | User can try to sign up with a different Username then.          | as expected |
+|             |                                                                  |             |
+|             |                                                                  |             |
+| Email       | Email field is optional,                                         | as expected |
+| (optional)  | User can type in their email,                                    | as expected |
+|             | or leave it blank.                                               | as expected |
+|             | If Visitor chooses to fill in email:                             | as expected |
+|             | pop up appears if no text before '@' in the email:               | as expected |
+|             | "Please enter a part followed by '@'. '@...' is incomplete"      | as expected |
+|             | pop up appears when no '@' in the email:                         | as expected |
+|             | "Please include an '@' in the email...",                         | as expected |
+|             | pop up appears if no text after '@' in the email:                | as expected |
+|             | "Please enter a part following '@'. '...@' is incomplete".       | as expected |
+|             | Suggestions for email are displayed below the Email field,       | as expected |
+|             | while adjusting email to match the requirements,                 | as expected |
+|             | even before clicking on 'Sign Up'                                | as expected |
+|             |                                                                  |             |
+| Password    | Password field is required,                                      | as expected |
+|             | even though there's no asterisk                                  | as expected |
+|             | highlighting that Password is required.                          | as expected |
+|             | User can type in what password they would like,                  | as expected |
+|             | all typed password characters, are masked as black dots,         | as expected |
+|             | for sercurity.                                                   | as expected |
+|             |                                                                  |             |
+|             | Below Password field, guidelines for Password are listed.        | as expected |
+|             | If Password entered doesn't match Password guidelines,           | as expected |
+|             | and user clicks on 'Sign Up' button,                             | as expected |
+|             | User is notified of Password not matching guidelines,            | as expected |
+|             | and one or more guidelines are shown above the Password field,   | as expected |
+|             | Highlighting issues with Users chosen Password,                  | as expected |
+|             | even if password macthes some of the guidelines:                 | as expected |
+|             |                                                                  |             |
+|             | If Password is too short, message above Password field states:   | as expected |
+|             | 'This password is too short. It must contain at least            | as expected |
+|             | 8 characters.'                                                   |             |
+|             |                                                                  |             |
+|             | If Password is too common, message above Password field states:  | as expected |
+|             | 'This password is too common.'                                   | as expected |
+|             |                                                                  |             |
+|             | If Password is long enough, yet too similar to the username,     | as expected |
+|             | message above Password field states:                             | as expected |
+|             | 'This password is too similar to the username.'                  | as expected |
+|             |                                                                  |             |
+|             | If Password field is left blank,                                 | as expected |
+|             | and user clicks on 'Sign Up' button,                             | as expected |
+|             | pop up appears near Password field: "Please fill in this field." | as expected |
+|             |                                                                  |             |
+|             | If Password is only numbers,                                     | as expected |
+|             | message above Password field states:                             | as expected |
+|             | 'This password is too common.'                                   | as expected |
+|             | 'This password is entirely numeric.'                             | as expected |
+|             |                                                                  |             |
+| Password    | If User does not fill in the Password(again) field,              | as expected |
+| (again)     | pop up appears below Password(again) field,                      | as expected |
+|             | 'Please fill in this field.'                                     | as expected |
+|             |                                                                  |             |
+|             | User has an option to correct the Username, Email, Password      | as expected |
+|             | and Password(again) mutliple times to try to 'Sign Up'           | as expected |
+|             | If Username, Password, Password(again) and Email(if chosen)      | as expected |
+|             | are entered as required, and user clicks on 'Sign Up' button,    | as expected |
+|             | Home page opens,                                                 | as expected |
+|             | "Successfully signed in as ...." is shown below NavBar,          | as expected |
+|             | or below logo and Side Menu (on a smaller screen),               | as expected |
+|             | "Signed in as ..." is displayed on the rightside below pop-up,   | as expected |
+|             | NavBar shows 'Sign Out' instead of 'Sign Up' and 'Sign In'.      | as expected |
+|             | and user is now allowed to comment on any published posts.       | as expected |
 
 
 
@@ -489,7 +593,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 |             | or below logo and Side Menu (on a smaller screen),               | as expected |
 |             | "Signed in as ..." is displayed on the rightside below pop-up,   | as expected |
 |             | NavBar shows 'Sign Out' instead of 'Sign Up' and 'Sign In'.      | as expected |
-|             | and user is now allowed to comment on any published post.        | as expected |
+|             | and user is now allowed to comment on any published posts.       | as expected |
 
 
 ## Social media links in Footer
@@ -574,11 +678,27 @@ After:
 - Alert messages, pop ups are showing up in the color of the walk-through, instead of developer's chosen color
 - Admin and Site Users are not able to create posts when logged in. Admin can create posts from Django
 - Not all of the python files have been checked with [CI Python Linter](https://pep8ci.herokuapp.com/)
+- When filling Sign Up form, and existing Username is chosen, Visitor is not informed straigt away that this Username is already taken, instead, cursor moves to Password  field (as email is optional). Yet when user clicks on Sign Up button, while existing Username is on Username field, and passwords not matching that Username, User is notified above Username field: "A User with that username already exists".
+  It would be beneficial and time saving for users for system to recognise this Username is already taken, and inform the Visitor to choose a different Username.
 - There are errors showing in some of the python files, checked by developer:
 
 ![Python error](docs/readmeimages/indentationpython.png)
 
 - Error pages not added
+
+- In Django, when Resource is marked as a Draft, it still shows up on the Website, just at the bottom of the page, separated from Published ones,
+  and still clickable, usable:
+
+![Resource Draft](draftresource.png)
+
+![Resource Draft Available on the Website](resourcesdraftvisibleclickable.png)
+
+Developer unapproved the Resource, by unchecking checkbox beside 'Approved', and Draft/Unapproved Resource was still displayed on the page, and clickable:
+
+![Resource Draft, Unapproved](resourcedraftnotapproved.png)
+
+As the video was marked as Draft, and Unapproved for testing purposes only, Developer kept the video in the Resources, as it fits the theme of the Website,
+and marked this bug fix in Future Features
 
 
 ### Forking the repository
