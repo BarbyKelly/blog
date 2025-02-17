@@ -17,12 +17,10 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 ![Am I Responsive image](docs/readmeimages/amiresponsivetest.png)
 
-
 # Content
 - [UX Design](#ux-design)
 - [User Stories](#user-stories)
 - [Features](#features)
-- [Structure](#structure)
 - [Testing & Validation](#testing--validation)
 - [Deployment](#deployment)
 - [References & Credits](#references--credits)
@@ -143,33 +141,123 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 ## Common Features
 - **Navigation Menu**
+    - Logo
     - Home
     - About
     - Resources
-    - Sign up
-    - Login
+    - Sign Up
+    - Sign In
+    - Sign Out - When already Signed In, and Sign Up and Sign In not showen then
 
 - **Footer**
     - Copyright
     - Social Media links
 
-## Homepage Features
-- Three different articles are displayed, with author's name, suitable image, excerpt, and date and time of the article
-- Page visitor can see if they are logged in or not, top right corner
-- Below the articles, there's a button 'next', which brings site visitor to the next page of articles
+Disclaimer: Developer used Dev Tools, to demonstrate bookblog's pages on various screensizes
 
+## Homepage Features
+- bookblog logo on the top left
+- NavBar with NavLinks on top of the page or in Side Menu for smaller screens
+- NavText 'sharing beautiful moments' on top right, or at the bottom of the Side Menu for smaller screens
+- In top right corner, below NavText, 'Not signed in' or 'Signed in as ...', is displayed
+- Various blog posts displayed, with author's name, suitable image, excerpt, and date and time of the article
+- Below blog posts, above footer, there's a button 'Next >>', which brings site visitor to the next page of blog posts,
+  or 'Prev <<' is Visitor is not on the first page of blog posts, and clinking on Prev brings visitor back to previous page of blog posts.
+- Visitor may click on the title of the article, which opens up the article in a new tab, leaving Home page open in a previous tab
+- visitor may read the article, read comments, if there are any, and if signed in, reader can leave a comment
+- If not signed in, Visitor can click on 'Sign In' on NavBar
+- Footer shows Copyright details, and clickable links to Default Social Media pages
+
+![bookblog Home page on Dell monitor](docs/readmeimages/homepagedellmonitoroptimized.png)
+
+## About Features
+- bookblog logo on the top left
+- NavBar with NavLinks on top of the page or in Side Menu for smaller screens
+- NavText 'sharing beautiful moments' on top right, or at the bottom of the Side Menu for smaller screens
+- In top right corner, below NavText, 'Not signed in' or 'Signed in as ...', is displayed
+- Default Image of the clouds is displayed on the right or on top of 'About' text, depending on the screen size.
+- Text about bookblog is beside or below the default image
+- Below 'About' text, date and time of the text update is displayed
+- Collaboration Form is located below 'About' text
+- Visitor has an option to fill in their name, Email, and Message, and then Submit Collaboration Form, if they wish to share their ideas for blog posts, 
+  beautiful moments or books that shared something wonderful or made a difference for them
+- All form fields are mandatory and marked with asterisks to highlight they are mandatory
+- Footer shows Copyright details, and clickable links to Default Social Media pages
+
+![bookblog About page on Asus Zenbook Fold](docs/readmeimages/aboutpageasuszenbookfold.png)
 
 ## Resources Features
-- Various links are available for Visitor
+- bookblog logo on the top left
+- NavBar with NavLinks on top of the page or in Side Menu for smaller screens
+- NavText 'sharing beautiful moments' on top right, or at the bottom of the Side Menu for smaller screens
+- In top right corner, below NavText, 'Not signed in' or 'Signed in as (username)', is displayed
+- Various links are available for Visitor to click on
 - Visitor can click on links to open YouTube videos
+- Videos may open with an ad, if Visitor has no YouTube subscription. This is out of Developer's expertise
 - Only Admin can add and edit Resources
+- Statement on the right, below video links, states Links added by Site's admin 
+- Footer shows Copyright details, and clickable links to Default Social Media pages
 
+![bookblog Resources page on Surface Pro7](docs/readmeimages/resourcespagesurfacepro7.png)
+
+## Sign Up Features
+- bookblog logo on the top left
+- NavBar with NavLinks on top of the page or in Side Menu for smaller screens
+- NavText 'sharing beautiful moments' on top right, or at the bottom of the Side Menu for smaller screens
+- In top right corner, below NavText, 'Not signed in' is displayed
+- Visitor may fill in 'Sign Up' form
+- Visitor may click on 'Sign In' instead, if they already have an account
+- Once Visitor has Signed up, 'Sign Out' replaces 'Sign Up' and 'Sign In' NavLinks, and top right corner now displays 'Signed in as ...',
+and visitor is brought to Home page
+- Footer shows Copyright details, and clickable links to Default Social Media pages
+
+![bookblog Sign Up page on iPad Pro](docs/readmeimages/signuppageipadpro.png)
+
+## Sign In Features
+- bookblog logo on the top left
+- NavBar with NavLinks on top of the page or in Side Menu for smaller screens
+- NavText 'sharing beautiful moments' on top right, or at the bottom of the Side Menu for smaller screens
+- In top right corner, below NavText, 'Not signed in' is displayed
+- User may fill in Username and Password to 'Sign In'
+- Visitor has an option to click on 'Sign Up' first, if they don't have bookblog account yet
+- User may check 'Remember Me:' checkbox
+- User may click on 'Sign In' button
+
+![bookblog Sign In page on iPhone SE](docs/readmeimages/signinpageiphonese.png)
+
+- Once User is Signed in, NavLink 'Sign Out' replaces 'Sign Up' and 'Sign In' NavLinks'
+- Below NavBar message is displayed: 'Successfully signed in as (username)
+- Top right corner, below NavText then displays: 'Signed in as (username)',
+
+![bookblod Signed in success message, on iphoneSE](docs/readmeimages/signedinsuccessiphonese.png)
+
+- Once signed in, User may comment on blog posts
+- Footer shows Copyright details, and clickable links to Default Social Media pages
+
+## Sign Out Features
+
+- bookblog logo on the top left
+- NavBar with NavLinks on top of the page or in Side Menu for smaller screens
+- NavText 'sharing beautiful moments' on top right, or at the bottom of the Side Menu for smaller screens
+- In top right corner, below NavText, 'Signed in as (username)' is displayed
+- User may click on 'Sign Out' button to Sign Out
+
+![bookblog Sign Out page on Nest Hub Max](docs/readmeimages/signoutpagenesthubmax.png)
+
+- User is then signed out, Home page opens, and below NavBar message confirms: 'You have signed out.'
+- NavBar links then show 'Sign Up' and 'Sign In' options instead of 'Sign Out'
+- On the right, below NavText, 'Not signed in' is displayed
+- Footer shows Copyright details, and clickable links to Default Social Media pages
+
+![bookblog Signed Out confirmation on Nest Hub](docs/readmeimages/signedoutconfirmationnesthub.png)
 
 ## Future Features
 
 - Site Users can add posts once they log in
-- Admin can add posts not just only via Django
+- Admin can add posts directly, not just only via Django
+- All images on Home page have white box around them, to match the blog post with the book cover. At the moment book cover image looks different than images/photos used for other blog posts
 - Add an option to like the comment or post with a heart favicon
+- Clickable 'Sign In'/'Sign Up' options near comments where at the moment text says 'Sign in to leave a comment', and presently visitor needs to find the 'Sign In' option on   the page by themselves 
 - Resources page displaying "Suggestion" form, for visitors to be able to fill it
 - Image/video of waves on top of Resources page
 - Resources are displaying their default image/website, not just the link/text
@@ -178,15 +266,18 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Admin can notify User if there's spelling error, inappropriate details, in their comment, before deleting it
 - Resources to be replaced with links that open without ads
 - Resources not displayed if 'Draft' or 'Unapproved' or 'Not yet approved'
-- Sign Up form to have asterisk for required fields: Username, Password, Password(again)
+- Sign In form has asterisks for required fields: Username and Password 
+- Sign Up form has asterisks for required fields: Username, Password, Password(again)
 - When Sign Up is successful, and Home page opens, pop up on the screen to say "Successfully signed up, and signed in as ...",
   instead of "Successfully signed in as..."
+- Copyright year is updated automatically
+- Social Media links bring Visitor to bookblog's Social Media pages, instead of default home pages of each Social Media
+- Sign Out form asks 'Are you sure you want to sign out?', instead of just Signing User out after first click on 'Sign Out' button, may even suggest new blogposts or comments that user has not seen yet
+- Color difference on blogposts and comments that User has already viewed, or commented on
 
 [Back to the overview](#content)
 
 # Testing & Validation
-
-- Testing and Validation can be accessed here: [TESTING.md](../TESTING.md)
 
 # List of Tests, Validations
 - [Lighthouse Reports](Lighthouse Reports)
@@ -202,22 +293,30 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 ## Lighthouse Reports
 
-  validated with Google developer tools
+Developer used Google Developer Tools for these Lighthouse Reports:
 
-- ![Lighthouse Home](docs/readmeimages/lighthousetest.png)
+- ![bookblog Home page Ligthouse](docs/readmeimages/lighthousehomepage.png)
 
-- 
+- ![bookblog About page Ligthouse](docs/readmeimages/lighthouseaboutpage.png)
 
--
+- ![bookblog Resources page Ligthouse](docs/readmeimages/lighthouseresourcespage.png)
 
--
+- ![bookblog Sign Up page Ligthouse](docs/readmeimages/lighthousesignuppage.png)
 
--
+- ![bookblog Sign In page Ligthouse](docs/readmeimages/lighthousesigninpage.png)
 
 
+Developer used Microsoft Edge Developer Tools for these Lighthouse Reports:
 
-  
+![bookblog Home page Ligthouse](docs/readmeimages/homepagemsedgelighthouse.png)
 
+![bookblog About page Ligthouse](docs/readmeimages/aboutpagemsedgelighthouse.png)
+
+![bookblog Resources page Ligthouse](docs/readmeimages/resourcespagemsedgelighthouse.png)
+
+![bookblog Sign Up page Ligthouse](docs/readmeimages/signuppagemsedgelighthouse.png)
+
+![bookblog Sign In page Ligthouse](docs/readmeimages/signinpagemsedgelighthouse.png)
 
 ## HTML Validator
 
@@ -763,8 +862,6 @@ Developer deleted The Alps 4K Resource, as it wasn't responding to draft/unappro
 
 - Thanks to tutor Oisin's guidelines, Developer learned from [this ReadMe](https://github.com/Dimitris112/rum-away-testp4/blob/main/TESTING.md)
   how to add an extra file to document testing, and how to format testing tables
-
-- Developer used [ABC Webpage Spell-Check](https://chromewebstore.google.com/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik) to check spelling, found this suggestion on Slack, from Kera
 
 
 ## Images
