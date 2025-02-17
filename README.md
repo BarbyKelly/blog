@@ -3,15 +3,19 @@
 This project is created as part of Code Institute's Software Development course.
 [BookBlog's](https://bkblog-fdb72a8c4df9.herokuapp.com/) layout and code is based on Code Institute's Walk-through project
 ["I Think Therefore I Blog"](https://github.com/Code-Institute-Solutions/blog/tree/main). BookBlog has no commercial intention.
-Aim of this project was to create a blog where Site Users can share book reviews, or create articles for the bookblog, comment on the reviews/books/blog posts. All of the articles, reviews, comments and suggestions need to be approved by BookBlog's Admin.
-Bookblogs theme: books and experiences related to energy work, ascension, natural methods to work on wellbeing, heureka moments, serendipity, beautiful changes in life and similar.
-At the time of submission deadline, on developer's screen there seems to be only an option to add posts via Django page. 
+
+Bookblog is for sharing beautiful moments and experiences, wonderful books through blog posts. 
+
+For now only Admin can create blog posts, and users can read blog posts, comment on the blog posts, access resources, sign up and sign in, or fill in a Collaboration Form
+on About page. All of the articles, reviews, comments and suggestions need to be approved by BookBlog's Admin, the Developer.
+As this is a project, this website's forms are not monitored.
+
 
 Deployed site: [BookBlog](https://bkblog-fdb72a8c4df9.herokuapp.com/)
 
 Github: [link to github](https://github.com/BarbyKelly/blog)
 
-![Am I Responsive image](docs/readmeimages/amiresponsive.png)
+![Am I Responsive image](docs/readmeimages/amiresponsivetest.png)
 
 
 # Content
@@ -49,10 +53,10 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 - View a paginated list of posts, and choose which one to read
 - Sign up for an account
-- Login
+- Sign in
 - Add comments
 - Modify or delete their own comments
-- Create drafts
+
 
 #### Future Features for Site Users:
 
@@ -63,13 +67,16 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Create blog content
 - Comments visible only to Signed In users
 - Sign Out form has an option to "Go Back" with a button, instead of just clicking on a different NavLink, if don't want to Sign Out
+- Change their password
+- Delete their account
+- Recover their Username and/or password
 
 ### Visitor may:
 
 - View a paginated list of posts, and choose which one to read
-- Click on Home, About, Resources, Register, Login
+- Click on Home, About, Resources, Register, Sign In
 - Opt to Sign up for an account
-- Fill on Collaborator Form
+- Fill in Collaboration Form
 
 #### Future Features for Visitors:
 
@@ -697,8 +704,7 @@ Developer unapproved the Resource, by unchecking checkbox beside 'Approved', and
 
 ![Resource Draft, Unapproved](resourcedraftnotapproved.png)
 
-As the video was marked as Draft, and Unapproved for testing purposes only, Developer kept the video in the Resources, as it fits the theme of the Website,
-and marked this bug fix in Future Features
+Developer deleted The Alps 4K Resource, as it wasn't responding to draft/unapproved changes.
 
 
 ### Forking the repository
