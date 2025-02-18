@@ -142,20 +142,31 @@ Developer changed from original Login to Sign In. Due to time constraints, Wiref
 # Features
 
 ## Common Features
-- **Navigation Menu**
+- **NavBar, NavLinks**
     - Logo
     - Home
     - About
     - Resources
     - Sign Up
     - Sign In
-    - Sign Out - When already Signed In, and Sign Up and Sign In not showen then
+    - Sign Out - When already Signed In, and Sign Up and Sign In NavLinks are not visible
 
 - **Footer**
     - Copyright
     - Social Media links
 
 Disclaimer: Developer used Dev Tools, to demonstrate bookblog's pages on various screensizes
+
+## Side Menu
+
+- Displayed on smaller screen sizes instead of NavBar
+- Logo remains top left
+- Side Menu displayed top right
+- NavLinks open below Logo
+- NavText is not clickable, and is displayed below NavLinks
+- 'Signed in as (username)' or 'Not signed in' is displayed below Side Menu when Side Menu closed, or below NavText on the left when Side Menu is Open
+
+![Side Menu](docs/readmeimages/sidemenuopenedoptimized.png)
 
 ## Homepage Features
 - bookblog logo on the top left
@@ -171,6 +182,35 @@ Disclaimer: Developer used Dev Tools, to demonstrate bookblog's pages on various
 - Footer shows Copyright details, and clickable links to Default Social Media pages
 
 ![bookblog Home page on Dell monitor](docs/readmeimages/homepagedellmonitoroptimized.png)
+
+[Back to Content](#content)
+
+## Comments Features
+
+- Comments are visible to all users, Signed In or not
+- Only Signed in Users can comment
+
+- If User not signed in:
+
+![No comment option if not signed in](docs/readmeimages/commentsnotsignedin.png)
+
+- "Here you can leave a comment:" is displayed for Signed in Users, and their comments are available for editing or deleting:
+
+![Comments section when Signed In](docs/readmeimages/commentswhensignedinoptimized.png)
+
+- User can edit or delete only their own comments (except Admin, who can edit and delete any comment)
+
+- 'Body*' is mandatory if user wants to comment, 'Please fill in this field' pops up below 'Body*', if trying to submit without text:
+
+![No text in Body](docs/readmeimages/notextbeforesubmitwasclicked.png)
+
+- 'Comment was submitted. Awaiting for approval.' is displayed:
+
+![Comment Submitted. Waiting for approval](docs/readmeimages/commentsubmittedconfirmation.png)
+
+'This comment is awaiting for approval by an administrator', is displayed.
+User may edit or delete their comment before it is approved,
+
 
 [Back to Content](#content)
 
@@ -288,6 +328,7 @@ and visitor is brought to Home page
 - Social Media links bring Visitor to bookblog's Social Media pages, instead of default home pages of each Social Media
 - Sign Out form asks 'Are you sure you want to sign out?', instead of just Signing User out after first click on 'Sign Out' button, may even suggest new blogposts or comments that user has not seen yet
 - Color difference on blogposts and comments that User has already viewed, or commented on
+- NavBar and footer sticky, visible at all times, for easier access
 
 [Back to Content](#content)
 
@@ -463,6 +504,27 @@ Validated with: [codebeautify](https://codebeautify.org/jsvalidate)
 
 [Back to content](#content)
 
+## Side Menu
+
+| Tested Item | Expected Outcome                                   | Outcome     |
+| ----------- | -------------------------------------------------- | ----------- |
+| Side Menu   | Displayed on smaller screen sizes                  | as expected |
+|             | displayed top right.                               | as expected |
+|             | Logo remains top left                              | as expected |
+|             | Displayed on all bookblog pages on smaller screens | as expected |
+|             | Not displayed on larger screens                    | as expected |
+|             | All NavLinks Clickable,                            | as expected |
+|             | NavText 'sharing beautiful moments' below NavLinks | as expected |
+|             | NavText not Clickable,                             | as expected |
+|             | All links tested and reported under NavBar testing | as expected |
+|             | All NavLinks Clickable,                            | as expected |
+|             | 'Signed in as (username)' or 'Not signed in' is    |             |
+|             | Displayed below Side Menu                          | as expected |
+
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
+
 
 ## Blog Posts
 
@@ -476,6 +538,57 @@ Validated with: [codebeautify](https://codebeautify.org/jsvalidate)
 |             | beside the title, on different screen sizes,          |                 |
 |             | Image of the blog post is visible on different        | not as expected |
 |             | screen sizes                                          |                 |
+
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
+
+## Comments
+
+| Tested Item | Expected Outcome                                                           | Outcome     |
+| ----------- | -------------------------------------------------------------------------- | ----------- |
+| Comments    | Once Visitor has opened up a Blog post,                                    | as expected |
+|             | it opens in a new tab,                                                     | as expected |
+|             | Home Page stays open in a previous tab.                                    | as expected |
+|             |                                                                            |             |
+|             | If user is Signed in or not, these are displayed:                          | as expected |
+|             | 'Comments' section Below the blog post,                                    | as expected |
+|             | with number of comments for this particular blog post,                     | as expected |
+|             | username of the user who posted each comment,                              | as expected |
+|             | date, and time of the comment,                                             | as expected |
+|             | text of the comment if comment has been approved by admin,                 | as expected |
+|             | lighter color text if not approved yet.                                    | as expected |
+|             |                                                                            |             |
+| Not Signed  | If user is not Signed in,                                                  | as expected |
+| In User     | 'Sign in to leave a comment', is displayed on the right,                   | as expected |
+|             | No option to edit or delete their comments.                                | as expected |
+|             |                                                                            |             |
+| Signed In   | An option to edit or delete their comments,                                | as expected |
+| User        | "Here you can leave a comment:" is displayed                               | as expected |
+|             | on the right,                                                              | as expected |
+|             | or below for smaller screens.                                              | as expected |
+|             | User can edit or delete only their own comments,                           | as expected |
+|             | except admin can edit or delete all comments.                              | as expected |
+|             | 'Posting comment as (username)' is displayed above 'Body*',                | as expected |
+|             | User can type in text in area marked 'Body*'.                              | as expected |
+|             | 'Body*' is mandatory if user wants to comment,                             | as expected |
+|             | and marked with an asterisk, to show it's mandatory field.                 | as expected |
+|             | If user clicks on 'Submit Comment' with blank 'Body*',                     | as expected |
+|             | 'Please fill in this field' pops up below 'Body*',                         | as expected |
+|             | Once user types a character in 'Body*', pop up is no longer displayed.     | as expected |
+|             | Presently user can submit Comment with even one character.                 | as expected |
+|             | Future feature would require user to add minimum Comment length,           | as expected |
+|             | before user can submit.                                                    | as expected |
+|             | If 'Body*' has text in it,                                                 | as expected |
+|             | User can click 'Submit Comment' button,                                    | as expected |
+|             | 'Comment was submitted. Awaiting for approval.' is displayed,              | as expected |
+|             | User remains signed in.                                                    | as expected |
+|             | Number of comments changes once Comment has been approved.                 | as expected |
+|             | Comment is visible, in a lighter color,                                    | as expected |
+|             | 'This comment is awaiting for approval by an administrator', is displayed. | as expected |
+|             | below NavBar on top of the screen.                                         | as expected |
+|             | User may edit or delete their comment before it is approved,               | as expected |
+|             | and after their comment has been approved.                                 | as expected |
 
 [Back to Testing and Validation](#testing--validation)
 
@@ -969,6 +1082,9 @@ Developer deleted The Alps 4K Resource (even though it was beautiful, and suited
 
 - Thanks to tutor Oisin's guidelines, Developer learned from [this ReadMe](https://github.com/Dimitris112/rum-away-testp4/blob/main/TESTING.md)
   how to add an extra file to document testing, and how to format testing tables. Due to part of the testing going missing from Testing.md, as Developer was on powershell terminal, instead of bash (tutor Rebecca helped developer to solve powershell/bash incident), Developer moved all of the testing back to Readme.md
+
+- Developer used [Simple Image Resizer](https://www.simpleimageresizer.com/resize-image-to-50-kb) to resize images for bookblog and readme.
+Due to parts of the bookblog having to be restored, and volume of images, not all of the images have been resized
 
 [Back to Content](#content)
 
