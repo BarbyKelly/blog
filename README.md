@@ -80,7 +80,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 - Sign up for Newsletter
 
-[Back to the overview](#content)
+[Back to Content](#content)
 
 
 ### Deployments
@@ -97,7 +97,7 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 - Once Heroku has finished deploying your app, "View app" appears at the bottom of the page
 - Click on "View app"
 
-[Back to the overview](#content)
+[Back to Content](#content)
 
 
 ## Wireframes
@@ -120,15 +120,17 @@ Github: [link to github](https://github.com/BarbyKelly/blog)
 
 ![wireframe resources page](docs/readmeimages/wireframeresources.png)
 
-### Signup page
+### Sign Up page
 
 ![wireframe sign up page](docs/readmeimages/wireframesignup.png)
 
 ### Login page
 
+Developer changed from original Login to Sign In. Due to time constraints, Wireframes were not updated after the change
+
 ![wireframe login page](docs/readmeimages/wireframelogin.png)
 
-[Back to the overview](#content)
+[Back to Content](#content)
 
 
 ## Colors
@@ -170,6 +172,8 @@ Disclaimer: Developer used Dev Tools, to demonstrate bookblog's pages on various
 
 ![bookblog Home page on Dell monitor](docs/readmeimages/homepagedellmonitoroptimized.png)
 
+[Back to Content](#content)
+
 ## About Features
 - bookblog logo on the top left
 - NavBar with NavLinks on top of the page or in Side Menu for smaller screens
@@ -186,6 +190,8 @@ Disclaimer: Developer used Dev Tools, to demonstrate bookblog's pages on various
 
 ![bookblog About page on Asus Zenbook Fold](docs/readmeimages/aboutpageasuszenbookfold.png)
 
+[Back to Content](#content)
+
 ## Resources Features
 - bookblog logo on the top left
 - NavBar with NavLinks on top of the page or in Side Menu for smaller screens
@@ -200,6 +206,8 @@ Disclaimer: Developer used Dev Tools, to demonstrate bookblog's pages on various
 
 ![bookblog Resources page on Surface Pro7](docs/readmeimages/resourcespagesurfacepro7.png)
 
+[Back to Content](#content)
+
 ## Sign Up Features
 - bookblog logo on the top left
 - NavBar with NavLinks on top of the page or in Side Menu for smaller screens
@@ -212,6 +220,8 @@ and visitor is brought to Home page
 - Footer shows Copyright details, and clickable links to Default Social Media pages
 
 ![bookblog Sign Up page on iPad Pro](docs/readmeimages/signuppageipadpro.png)
+
+[Back to Content](#content)
 
 ## Sign In Features
 - bookblog logo on the top left
@@ -229,10 +239,12 @@ and visitor is brought to Home page
 - Below NavBar message is displayed: 'Successfully signed in as (username)
 - Top right corner, below NavText then displays: 'Signed in as (username)',
 
-![bookblod Signed in success message, on iphoneSE](docs/readmeimages/signedinsuccessiphonese.png)
+![bookblog Signed in success message, on iphoneSE](docs/readmeimages/signedinsuccessiphonese.png)
 
 - Once signed in, User may comment on blog posts
 - Footer shows Copyright details, and clickable links to Default Social Media pages
+
+[Back to Content](#content)
 
 ## Sign Out Features
 
@@ -250,6 +262,8 @@ and visitor is brought to Home page
 - Footer shows Copyright details, and clickable links to Default Social Media pages
 
 ![bookblog Signed Out confirmation on Nest Hub](docs/readmeimages/signedoutconfirmationnesthub.png)
+
+[Back to Content](#content)
 
 ## Future Features
 
@@ -275,68 +289,105 @@ and visitor is brought to Home page
 - Sign Out form asks 'Are you sure you want to sign out?', instead of just Signing User out after first click on 'Sign Out' button, may even suggest new blogposts or comments that user has not seen yet
 - Color difference on blogposts and comments that User has already viewed, or commented on
 
-[Back to the overview](#content)
+[Back to Content](#content)
 
-# Testing & Validation
+# Testing and Validation
 
-# List of Tests, Validations
-- [Lighthouse Reports](Lighthouse Reports)
-- [HTML Validator](HTML Validator)
-- [CSS Validator](CSS Validator)
-- [JS Validator](JS Validator)
-- [NavBar, NavLinks, NavButtons](NavBar, NavLinks, NavButtons)
-- [About Page, Collaboration Form](About Page, Collaboration Form)
-- [Blog Posts, Comments, Edit and Delete Options, Approving of Comments](Blog Posts, Comments, Edit and Delete Options, Approving of Comments)
-- [Social media links in Footer](Social media links in Footer)
-- [ReadMe links](ReadMe links)
+- [Lighthouse Reports](#lighthouse-reports)
+  - [Google Dev Tools](#google-dev-tools)
+  - [Microsoft Edge Dev Tools](#microsoft-edge-dev-tools)
+- [HTML Validator](#html-validator)
+- [CSS Validator](#css-validator)
+- [JS Validator](#js-validator)
+- [NavBar, NavLinks, NavButtons](#navbar-navlinks-navbuttons)
+- [Blog Posts](#blog-posts)
+- [About Page, Collaboration Form](#about-page-collaboration-form)
+- [Resources Page](#resources-page)
+- [Sign Up Page](#sign-up-page)
+- [Sign In Page](#sign-in-page)
+- [Sign Out Page](#sign-out-page)
+- [Social media links](#social-media-links)
+- [ReadMe Images, links](#readme-images-links)
+
+[Back to Content](#content)
 
 
 ## Lighthouse Reports
 
-Developer used Google Developer Tools for these Lighthouse Reports:
+### Google Dev Tools:
 
-- ![bookblog Home page Ligthouse](docs/readmeimages/lighthousehomepage.png)
+#### Home Page
+![bookblog Home page Ligthouse](docs/readmeimages/lighthousehomepage.png)
 
-- ![bookblog About page Ligthouse](docs/readmeimages/lighthouseaboutpage.png)
+#### About Page
+![bookblog About page Ligthouse](docs/readmeimages/lighthouseaboutpage.png)
 
-- ![bookblog Resources page Ligthouse](docs/readmeimages/lighthouseresourcespage.png)
+#### Resources Page
+![bookblog Resources page Ligthouse](docs/readmeimages/lighthouseresourcespage.png)
 
-- ![bookblog Sign Up page Ligthouse](docs/readmeimages/lighthousesignuppage.png)
+#### Sign Up Page
+![bookblog Sign Up page Ligthouse](docs/readmeimages/lighthousesignuppage.png)
 
-- ![bookblog Sign In page Ligthouse](docs/readmeimages/lighthousesigninpage.png)
+#### Sign In Page
+![bookblog Sign In page Ligthouse](docs/readmeimages/lighthousesigninpage.png)
+
+[Back to Testing and Validation](#testing-and-validation)
+
+[Back to Content](#content)
 
 
-Developer used Microsoft Edge Developer Tools for these Lighthouse Reports:
+### Microsoft Edge Dev Tools:
 
+#### Home Page
 ![bookblog Home page Ligthouse](docs/readmeimages/homepagemsedgelighthouse.png)
 
+#### About Page
 ![bookblog About page Ligthouse](docs/readmeimages/aboutpagemsedgelighthouse.png)
 
+#### Resources Page
 ![bookblog Resources page Ligthouse](docs/readmeimages/resourcespagemsedgelighthouse.png)
 
+#### Sign Up Page
 ![bookblog Sign Up page Ligthouse](docs/readmeimages/signuppagemsedgelighthouse.png)
 
+#### Sign In Page
 ![bookblog Sign In page Ligthouse](docs/readmeimages/signinpagemsedgelighthouse.png)
+
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
 
 ## HTML Validator
 
-- ![HTML Validator](docs/readmeimages/htmlcheck.png) 
+![HTML Validator](docs/readmeimages/htmlcheck.png) 
 
-  validated with: [W3C Markaup Validation](https://validator.w3.org/)
+Validated with: [W3C Markaup Validation](https://validator.w3.org/)
+
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
 
 
 ## CSS Validator
 
-- ![CSS Validator](docs/readmeimages/cssvalidator.png) 
+![CSS Validator](docs/readmeimages/cssvalidator.png) 
 
-  validated with: [W3C Markup Validation](https://validator.w3.org/)
+Validated with: [W3C Markup Validation](https://validator.w3.org/)
+
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
 
 
 ## JS Validator
 
-- ![JS Validator](docs/readmeimages/jsvalidator.png)
+![JS Validator](docs/readmeimages/jsvalidator.png)
 
-  validated with: [codebeautify](https://codebeautify.org/jsvalidate)
+Validated with: [codebeautify](https://codebeautify.org/jsvalidate)
+
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
 
 
 ## NavBar, NavLinks, NavButtons 
@@ -408,8 +459,12 @@ Developer used Microsoft Edge Developer Tools for these Lighthouse Reports:
 |             | sharing beautiful moments remains the same,           | as expected |
 |             | Visible in top right corner on all pages              | as expected |
 
+[Back to Testing and Validation](#testing--validation)
 
-## Blog Posts, Comments, Edit and Delete Options, Approving of Comments
+[Back to content](#content)
+
+
+## Blog Posts
 
 | Tested Item | Expected Outcome                                      | Outcome         |
 | ----------- | ----------------------------------------------------- | --------------  |
@@ -420,10 +475,11 @@ Developer used Microsoft Edge Developer Tools for these Lighthouse Reports:
 |             | Full Image of the blog post is visible                | not as expected |
 |             | beside the title, on different screen sizes,          |                 |
 |             | Image of the blog post is visible on different        | not as expected |
-|             | screen sizes,                                         |                 |
-|             |                                                       |                 |
-| Comment     | Clickable,                                            | as expected     |
+|             | screen sizes                                          |                 |
 
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
 
 ## About Page, Collaboration Form
 
@@ -493,7 +549,11 @@ Developer used Microsoft Edge Developer Tools for these Lighthouse Reports:
 |             | informing visitor to adjust the field,                            |             |
 |             | that is not filled as required                                    | as expected |
 
-## Resources page
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
+
+## Resources Page
 
 | Tested Item | Expected Outcome                                      | Outcome     |
 | ----------- | ----------------------------------------------------- | ----------- |
@@ -517,8 +577,11 @@ Developer used Microsoft Edge Developer Tools for these Lighthouse Reports:
 |             | Note on the right below links,                        | as expected |
 |             | stating Resources added by Site's admin               | as expected |
 
+[Back to Testing and Validation](#testing--validation)
 
-## Sign Up page
+[Back to content](#content)
+
+## Sign Up Page
 
 | Tested Item | Expected Outcome                                                 | Outcome     |
 | ----------- | ---------------------------------------------------------------- | ----------- |
@@ -637,9 +700,11 @@ Developer used Microsoft Edge Developer Tools for these Lighthouse Reports:
 |             | NavBar shows 'Sign Out' instead of 'Sign Up' and 'Sign In'.      | as expected |
 |             | and user is now allowed to comment on any published posts.       | as expected |
 
+[Back to Testing and Validation](#testing--validation)
 
+[Back to content](#content)
 
-## Sign In page
+## Sign In Page
 
 | Tested Item | Expected Outcome                                                 | Outcome     |
 | ----------- | ---------------------------------------------------------------- | ----------- |
@@ -701,42 +766,78 @@ Developer used Microsoft Edge Developer Tools for these Lighthouse Reports:
 |             | NavBar shows 'Sign Out' instead of 'Sign Up' and 'Sign In'.      | as expected |
 |             | and user is now allowed to comment on any published posts.       | as expected |
 
+[Back to Testing and Validation](#testing--validation)
 
-## Social media links in Footer
+[Back to content](#content)
 
-| Icon clicked | Expected Outcome                 | Outcome
-| ------------ | -------------------------------- | ----------- |
-| Facebook     | facebook.com opens in a new tab  | as expected |    
-| Twitter/X    | x.com opens in a new tab         | as expected |
-| Instagram    | instagram.com opens in a new tab | as expected |
-| YouTube      | youtube.com opens in a new tab   | as expected |
+## Sign Out Page
+
+| Tested Item | Expected Outcome                                                 | Outcome     |
+| ----------- | ---------------------------------------------------------------- | ----------- |
+| Sign Out    | Logo, NavBar, NavLinks, NavText displayed,                       | as expected |
+| page        | or NavLinks and NavText in the Side Menu,                        | as expected |
+|             | if smaller screen                                                | as expected |
+|             | On the right,                                                    | as expected |
+|             | below Side Menu or NavText,                                      | as expected |
+|             | 'Signed in as ...' is displayed.                                 | as expected |
+|             | In the middle of the page, 'Sign Out' button is displayed,       | as expected |
+|             | When cursor is on the 'Sign Out' button, color changes           | as expected |
+|             | from blue to white,                                              | as expected |
+|             | User can click on 'Sign Out' button,                             | as expected |
+|             | Home page opens,                                                 | as expected |
+|             | 'You have signed out.' message is displayed below NavBar,        | as expected |
+|             | or below Logo and Side Menu on a smaller screen.                 | as expected |
+|             | 'Not signed in' is displayed below the message.                  | as expected |
+|             | User can not comment on blog posts, until Signed In              | as expected |
+
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
 
 
-## ReadMe links 
+## Social media links
 
+| Icon clicked | Expected Outcome                                  | Outcome
+| ------------ | ------------------------------------------------- | ----------- |
+| Facebook     | facebook.com opens in a new tab                   | as expected |    
+| Twitter      | x.com (former Twitter) opens in a new tab         | as expected |
+| Instagram    | instagram.com opens in a new tab                  | as expected |
+| YouTube      | youtube.com opens in a new tab                    | as expected |
 
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
+
+## ReadMe Images, links 
+
+Developer checked ReadMe Images, and updated path where needed. And tested ReadMe links, to ensure each link opened the right page, or image, or brought Visitor back to Content or a Different part of ReadMe. Developer noticed some of the image sizes were too big for ReadMe. Due to time constraint, developer didn't get to reduce sizes of all of ReadMe images.
+
+[Back to Testing and Validation](#testing--validation)
+
+[Back to content](#content)
 
 
 ## Bugs
 
-- Resources app displayed only one resource at a time. With tutor's guidance to add for loop, all of the resources were displayed (for original version of this project)
+### Fixed
 
-- Images on Home page, on Next page, too big.
+- Resources app displayed only one resource at a time. With tutor's guidance to add for loop, all of the resources were displayed (for original version of this project)
 
 - Collaboration Form confirmation mentioned Collaboration Request. Developer changed 'request' for 'form' in about>views.py, to match the wording of the form and confirmation:
 
 Before:
 
-![Collaboration Request](readmerequestreceived.png)
+![Collaboration Request](docs/readmeimages/readmerequestreceived.png)
 
 After:
 
-![Collaboration Form](readmeformreceived.png)
+![Collaboration Form](docs/readmeimages/readmeformreceived.png)
 
 
-
+[Back to content](#content)
 
 ### Images post_detail.html
+
 - Images for bookblog articles showed up as expected on the Home page, matching the subject of the Title.
 
 ![Correct images](docs/readmeimages/correctimages.png)
@@ -764,28 +865,32 @@ After:
 
 [Correct image displayed](docs/readmeimages/correctimagedisplayed.png)
 
+[Back to Content](#content)
+
 ### am I Responsive
 
 - am I responsive test showed white screens instead of the website: [Blank am I responsive](docs/readmeimages/amiresponsiveblank.png)
   Thanks to Kera's post on Slack, developer found out that she needed to install [an extension](https://chromewebstore.google.com/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe?pli=1), so that Heroku site could be tested for responsiveness. Sorted! Am I responsive image displayed at the start of the ReadMe.
 
+[Back to Content](#content)
 
 ### Known Bugs
 
+- Images on Home page, on Next page, too big and not same size
 - Resources and About showing up in Django as Resourcess and Abouts
 - On Django, Collaboration requests needs to be replaced with Collaboration Form 
 - Collaboration form to be made smaller to fit on the screen better
-- When post is open for further reading, the image of the post is not displaying fully, on developer's screen size
+- When blog post is open, the image of the post is not displaying fully, while it is fully displayed on Home Screen, on various screen sizes
 - Resources is missing an image/video on top of the page
 - Resources are displayed only as text or link, instead of an image of the page
 - js validation showed one error, not fixed
-- Spelling check was not done for the website, yet
+- Spelling check was not done for all parts of the website
 - Sign up boxes could be shown in a nicer way, at the moment they are not lined up evenly
-- Alert messages, pop ups are showing up in the color of the walk-through, instead of developer's chosen color
-- Admin and Site Users are not able to create posts when logged in. Admin can create posts from Django
+- Alert messages, pop ups are showing up in the color of the walk-through, instead of developer's chosen color of blue
+- Admin and Site Users are not able to create posts when logged in. Admin can create posts via Django
 - Not all of the python files have been checked with [CI Python Linter](https://pep8ci.herokuapp.com/)
-- When filling Sign Up form, and existing Username is chosen, Visitor is not informed straigt away that this Username is already taken, instead, cursor moves to Password  field (as email is optional). Yet when user clicks on Sign Up button, while existing Username is on Username field, and passwords not matching that Username, User is notified above Username field: "A User with that username already exists".
-  It would be beneficial and time saving for users for system to recognise this Username is already taken, and inform the Visitor to choose a different Username.
+- When filling Sign Up form, and existing Username is chosen, Visitor is not informed straigt away that this Username is already taken, instead, cursor moves to Password  field (as email is optional). Yet when user clicks on Sign Up button, while existing Username is on Username field, and password does not match that Username, User is notified above Username field: "A User with that username already exists".
+  It would be beneficial and time saving for users if system recognised earlier that this Username was already taken, and informed User to choose a different Username.
 - There are errors showing in some of the python files, checked by developer:
 
 ![Python error](docs/readmeimages/indentationpython.png)
@@ -795,16 +900,17 @@ After:
 - In Django, when Resource is marked as a Draft, it still shows up on the Website, just at the bottom of the page, separated from Published ones,
   and still clickable, usable:
 
-![Resource Draft](draftresource.png)
+![Resource Draft](docs/readmeimages/draftresource.png)
 
-![Resource Draft Available on the Website](resourcesdraftvisibleclickable.png)
+![Resource Draft Available on the Website](docs/readmeimages/resourcesdraftvisibleclickable.png)
 
-Developer unapproved the Resource, by unchecking checkbox beside 'Approved', and Draft/Unapproved Resource was still displayed on the page, and clickable:
+- Developer unapproved the Resource, by unchecking checkbox beside 'Approved', and Draft/Unapproved Resource was still displayed on the page, and clickable:
 
-![Resource Draft, Unapproved](resourcedraftnotapproved.png)
+![Resource Draft, Unapproved](docs/readmeimages/resourcedraftnotapproved.png)
 
-Developer deleted The Alps 4K Resource, as it wasn't responding to draft/unapproved changes.
+Developer deleted The Alps 4K Resource (even though it was beautiful, and suited bookblog Resources), as it wasn't responding to draft/unapproved changes. Developer understand that issue was not with the video itself.
 
+[Back to Content](#content)
 
 ### Forking the repository
 
@@ -829,6 +935,7 @@ Developer deleted The Alps 4K Resource, as it wasn't responding to draft/unappro
 
 - [Spoon-Knife Github repo](https://github.com/octocat/Spoon-Knife) was used to demonstrate how to fork
 
+[Back to Content](#content)
 
 ### Creating the repository
 
@@ -839,7 +946,7 @@ Developer deleted The Alps 4K Resource, as it wasn't responding to draft/unappro
 - Leave the project Public like the default setting (for Code Institute projects)
 - Click on the green button "Create repository"
 
-[Back to the overview](#content)
+[Back to Content](#content)
 
 
 # References & Credits
@@ -861,38 +968,39 @@ Developer deleted The Alps 4K Resource, as it wasn't responding to draft/unappro
 - How to add favicon: [W3 Schools](https://www.w3schools.com/html/html_favicon.asp)
 
 - Thanks to tutor Oisin's guidelines, Developer learned from [this ReadMe](https://github.com/Dimitris112/rum-away-testp4/blob/main/TESTING.md)
-  how to add an extra file to document testing, and how to format testing tables
+  how to add an extra file to document testing, and how to format testing tables. Due to part of the testing going missing from Testing.md, as Developer was on powershell terminal, instead of bash (tutor Rebecca helped developer to solve powershell/bash incident), Developer moved all of the testing back to Readme.md
 
+[Back to Content](#content)
 
 ## Images
 
 - Inna Segal's book cover image from: [Paper Plus](https://www.paperplus.co.nz/shop/books/non-fiction/mind-body-spirit/general/the-secret-language-of-your-body)
 
-- Double rainbow: taken by the developer
+- Double rainbow: photo taken by the developer, Co. Kerry, Ireland
 
-- Flowers drawing by developer's 10 year old daughter Aoife, made in school
+- Flowers drawing by developer's daughter Aoife, made in school
 
-- Penguin drawing by developer's 6 year old daughter Ciara, made in school
+- Penguin drawing by developer's daughter Ciara, made in school
 
-- Beach: taken by the developer, Fenit, Co. Kerry, Ireland
+- Beach: photo taken by the developer, Fenit, Co. Kerry, Ireland
+
+- Deer: photo taken by the developer, Co. Kerry, Ireland 
 
 - Default image clouds taken by the developer, Co. Kerry, Ireland
 
 - Images converted with [Simple Image Resizer](https://www.simpleimageresizer.com/resize-image-to-500-kb)
 
-[Back to the overview](#content)
+[Back to Content](#content)
 
 # Acknowledgements
 
 - Developer is grateful for any guidance and support provided by her family and friends, mentor, facilitator, tutors, Slack members, and  
   online content creators.
 
-- Due to circumstances and time constraint, the project is not fully finished as required:
+- Due to circumstances and time constraint, the project is:
   - missing ERD
   - personalised model, Suggest, is not displaying on the website (only available on Django)
   - Resources app is supposed to have a wave image/video on top of the page
   - all of the resources links should be displaying their own images/websites
-  - not enough testing done
-  - there are probably bugs that the developer has not found yet
 
-[Back to the overview](#content)
+[Back to Content](#content)
