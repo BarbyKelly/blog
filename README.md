@@ -1,3 +1,9 @@
+⚠️ Project Status Note
+
+This is the 4th of 5 projects, completed and assessed as part of my Diploma in Full Stack Software Development course with Code Institute. At the time of submission, all required features and links were functional to the best of my knowledge.
+
+Some external links or deployments may no longer work as originally intended due to platform or service changes. The source code and README are preserved, except for this 'Project Status Note'.
+
 # Project4 - BookBlog
 
 This project is created as part of Code Institute's Software Development course.
